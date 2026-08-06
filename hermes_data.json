@@ -1,0 +1,2031 @@
+{
+  "source": "https://github.com/0xNyk/awesome-hermes-agent",
+  "title": "Awesome Hermes Agent",
+  "categories": [
+    {
+      "name": "Official Resources",
+      "subsections": [
+        {
+          "name": "",
+          "items": [
+            {
+              "name": "Hermes Agent",
+              "url": "https://github.com/NousResearch/hermes-agent",
+              "tag": "",
+              "author": "Nous Research",
+              "author_url": "https://nousresearch.com",
+              "desc": "The core project. Self-improving agent with a closed learning loop, skill creation and curation, persistent memory, 20+ messaging platforms, six terminal backends (local, Docker, SSH, Singularity, Modal, and Daytona), cron scheduling, MCP integration, isolated profiles, provider routing, and automatic migration from OpenClaw. 215k+ stars."
+            },
+            {
+              "name": "autonovel",
+              "url": "https://github.com/NousResearch/autonovel",
+              "tag": "",
+              "author": "Nous Research",
+              "author_url": "https://nousresearch.com",
+              "desc": "Autonomous novel-writing pipeline built on Hermes. Generates long-form manuscripts (100k+ words) end-to-end using the agent loop."
+            },
+            {
+              "name": "hermes-paperclip-adapter",
+              "url": "https://github.com/NousResearch/hermes-paperclip-adapter",
+              "tag": "",
+              "author": "Nous Research",
+              "author_url": "https://nousresearch.com",
+              "desc": "Run Hermes as a managed employee in Paperclip companies. Connects the agent to Paperclip's task management and governance system."
+            },
+            {
+              "name": "hermes-agent-self-evolution",
+              "url": "https://github.com/NousResearch/hermes-agent-self-evolution",
+              "tag": "",
+              "author": "Nous Research",
+              "author_url": "https://nousresearch.com",
+              "desc": "Evolutionary self-improvement using DSPy and GEPA (Genetic Evolution of Prompt Architectures). The research pipeline for optimizing Hermes's own prompts and behaviors."
+            },
+            {
+              "name": "Official Documentation",
+              "url": "https://hermes-agent.nousresearch.com/docs/",
+              "tag": "",
+              "author": "",
+              "author_url": "",
+              "desc": "Comprehensive docs covering quickstart, CLI, configuration, messaging gateway, security, tools, skills, memory, MCP, cron, ACP, API server, and architecture."
+            },
+            {
+              "name": "Release Notes",
+              "url": "https://github.com/NousResearch/hermes-agent/releases",
+              "tag": "",
+              "author": "",
+              "author_url": "",
+              "desc": "Official changelog with feature highlights, migration notes, and reliability fixes for each Hermes version."
+            },
+            {
+              "name": "tinker-atropos",
+              "url": "https://github.com/NousResearch/tinker-atropos",
+              "tag": "",
+              "author": "Nous Research",
+              "author_url": "https://nousresearch.com",
+              "desc": "Standalone Atropos integration with Thinking Machines Tinker API. RL training infrastructure for fine-tuning tool-calling models on real agent trajectories."
+            },
+            {
+              "name": "Skills Hub",
+              "url": "https://agentskills.io",
+              "tag": "",
+              "author": "",
+              "author_url": "",
+              "desc": "The open standard for agent skills. Compatible across Hermes, Claude Code, Cursor, Codex, and other agents."
+            },
+            {
+              "name": "Discord",
+              "url": "https://discord.gg/NousResearch",
+              "tag": "",
+              "author": "",
+              "author_url": "",
+              "desc": "The Nous Research community. Bug reports, feature requests, and general discussion."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Skills & Plugins",
+      "subsections": [
+        {
+          "name": "Community Skills",
+          "items": [
+            {
+              "name": "hermes-plugins",
+              "url": "https://github.com/42-evey/hermes-plugins",
+              "tag": "beta",
+              "author": "42-evey",
+              "author_url": "https://github.com/42-evey",
+              "desc": "Plugin suite: Discord voice bridge with Gemini Live, WhatsApp bridge, goal management, inter-agent bridge, model selection, and cost control. Maintained by a frequent Hermes core contributor."
+            },
+            {
+              "name": "hermes-skill-factory",
+              "url": "https://github.com/Romanescu11/hermes-skill-factory",
+              "tag": "beta",
+              "author": "Romanescu11",
+              "author_url": "https://github.com/Romanescu11",
+              "desc": "Meta-skill that auto-generates reusable skills from your workflows. Point it at a task you repeat and it creates a skill for it."
+            },
+            {
+              "name": "litprog-skill",
+              "url": "https://github.com/tlehman/litprog-skill",
+              "tag": "beta",
+              "author": "tlehman",
+              "author_url": "https://github.com/tlehman",
+              "desc": "Literate programming skill that works across Claude Code, OpenCode, and Hermes. Weaves code and prose into documented, executable notebooks."
+            },
+            {
+              "name": "Wizards-of-the-Ghosts",
+              "url": "https://github.com/Hmbown/Wizards-of-the-Ghosts",
+              "tag": "experimental",
+              "author": "Hmbown",
+              "author_url": "https://github.com/Hmbown",
+              "desc": "Fantasy spell-themed skill pack. Wraps real development operations (refactoring, linting, testing) in a tabletop RPG interface."
+            },
+            {
+              "name": "super-hermes",
+              "url": "https://github.com/Cranot/super-hermes",
+              "tag": "experimental",
+              "author": "Cranot",
+              "author_url": "https://github.com/Cranot",
+              "desc": "Teaches Hermes to write its own analytical prompts. Adds a meta-reasoning layer where the agent generates better prompts for itself before executing tasks."
+            },
+            {
+              "name": "hermes-life-os",
+              "url": "https://github.com/Lethe044/hermes-life-os",
+              "tag": "experimental",
+              "author": "Lethe044",
+              "author_url": "https://github.com/Lethe044",
+              "desc": "Personal OS agent that detects daily patterns and learns your routines over time. Uses Hermes's memory system for lifestyle tracking, not just code."
+            },
+            {
+              "name": "hermes-incident-commander",
+              "url": "https://github.com/Lethe044/hermes-incident-commander",
+              "tag": "beta",
+              "author": "Lethe044",
+              "author_url": "https://github.com/Lethe044",
+              "desc": "Autonomous SRE agent for production incident detection and self-healing. Monitors services, diagnoses failures, and applies fixes. Works well with Hermes's cron scheduling."
+            },
+            {
+              "name": "hermes-dojo",
+              "url": "https://github.com/Yonkoo11/hermes-dojo",
+              "tag": "beta",
+              "author": "Yonkoo11",
+              "author_url": "https://github.com/Yonkoo11",
+              "desc": "Self-improvement system that monitors agent performance, identifies weak skills, and iterates on them automatically."
+            },
+            {
+              "name": "hermes-spotify-skill",
+              "url": "https://github.com/Alexeyisme/hermes-spotify-skill",
+              "tag": "beta",
+              "author": "Alexeyisme",
+              "author_url": "https://github.com/Alexeyisme",
+              "desc": "Spotify playback control for headless Linux and Raspberry Pi 4/5. Search, play, pause, skip, set volume, transfer between Spotify Connect devices. No daemon — Hermes writes spotipy snippets and runs them via `execute_code`. Works with raspotify for Pi-as-speaker. Tested on Raspberry Pi OS Lite Bookworm 64-bit. The only Linux-native Spotify skill in the ecosystem."
+            },
+            {
+              "name": "hermes-skill-marketplace",
+              "url": "https://github.com/Lethe044/hermes-skill-marketplace",
+              "tag": "experimental",
+              "author": "Lethe044",
+              "author_url": "https://github.com/Lethe044",
+              "desc": "Agent that writes, tests, and publishes new skills autonomously. Automates the skill creation and distribution lifecycle."
+            },
+            {
+              "name": "personal-api",
+              "url": "https://github.com/beiyuii/personal-api-skill",
+              "tag": "experimental",
+              "author": "beiyuii",
+              "author_url": "https://github.com/beiyuii",
+              "desc": "Turn your Obsidian vault into an identity layer any AI agent can read in under 30 seconds"
+            },
+            {
+              "name": "hermes-nextcloud",
+              "url": "https://github.com/adnw-vinc/hermes-nextcloud",
+              "tag": "beta",
+              "author": "adnw-vinc",
+              "author_url": "https://github.com/adnw-vinc",
+              "desc": "Self-hosted Nextcloud bridge — manage files (WebDAV), notes (Nextcloud Notes API), calendar/tasks (CalDAV), and contacts (CardDAV) from Hermes. App Password auth, configurable timezone, guided setup. Fills the self-hosted-cloud gap for Hermes users running their own infrastructure."
+            },
+            {
+              "name": "oh-my-hermes",
+              "url": "https://github.com/witt3rd/oh-my-hermes",
+              "tag": "beta",
+              "author": "witt3rd",
+              "author_url": "https://github.com/witt3rd",
+              "desc": "Multi-agent orchestration skills for Hermes inspired by `oh-my-claudecode` and rebuilt on Hermes primitives. Suite covers deep-research, deep-interview, `ralplan` (Planner → Architect → Critic consensus), `ralph` (verified execute → verify → iterate), `triage`, and `autopilot`, plus driver skills encoding the dispatcher's playbook. Composes end-to-end: research → interview → consensus plan → verified execution."
+            },
+            {
+              "name": "blacktea",
+              "url": "https://github.com/nmrtn/blacktea",
+              "tag": "beta",
+              "author": "nmrtn",
+              "author_url": "https://github.com/nmrtn",
+              "desc": "Spending controls for agents that pay online via x402. Holds over-limit payments for human approval in the chat, enforces a JSON policy, and audits every spend. Ships as an MCP server (pay, approve_payment, reject_payment, audit_query) plus an SDK and CLI."
+            },
+            {
+              "name": "hermes-skill-kit",
+              "url": "https://github.com/duruonanni/hermes-skill-kit",
+              "tag": "beta",
+              "author": "duruonanni",
+              "author_url": "https://github.com/duruonanni",
+              "desc": "Three community-vetted skills: **feishu-document-api** (programmatic Feishu/Lark document creation), **feishu-response-format** (Feishu response formatting with 3 table schemes, Card JSON 2.0, Markdown compatibility, 53 tests), and **hermes-memory-maintenance** (MEMORY.md/USER.md audit and drift recovery). Codex-audited."
+            },
+            {
+              "name": "PolyBrain",
+              "url": "https://github.com/mosesman831/PolyBrain",
+              "tag": "beta",
+              "author": "mosesman831",
+              "author_url": "https://github.com/mosesman831",
+              "desc": "Multi-agent, multi-model orchestration skill that decomposes an objective into a JSON task plan, runs research and build subtasks in parallel, then synthesizes and verifies a final answer. Each role can use a different LLM/provider. Enforces strict citations and drops uncited claims."
+            },
+            {
+              "name": "tech-debt-management-skill",
+              "url": "https://github.com/Vincent-crypto-coder/tech-debt-management-skill",
+              "tag": "experimental",
+              "author": "Vincent-crypto-coder",
+              "author_url": "https://github.com/Vincent-crypto-coder",
+              "desc": "Systematic technical debt management for Python projects. Automates scanning (pylint, radon, safety, bandit, flake8), prioritizes debt with a 4-dimension matrix, and generates executable refactoring plans with verification scripts."
+            },
+            {
+              "name": "pingpong",
+              "url": "https://github.com/0xAaronx0/pingpong",
+              "tag": "beta",
+              "author": "0xAaronx0",
+              "author_url": "https://github.com/0xAaronx0",
+              "desc": "Spontaneous local leisure meetups: agent posts a pseudonymous, coarse-geo offer to a shared board; nearby agents match locally and negotiate place/time with double-opt-in before contact."
+            },
+            {
+              "name": "hermes-skills",
+              "url": "https://github.com/RobinBeraud/hermes-skills",
+              "tag": "beta",
+              "author": "RobinBeraud",
+              "author_url": "https://github.com/RobinBeraud",
+              "desc": "Growing skills library covering finance (FMP stock/crypto data), web (Firecrawl scrape/search), WhatsApp (WBizTool contacts), and marketing/SEO. Each skill follows standard SKILL.md format."
+            },
+            {
+              "name": "hermes-skills (liuyunnb666)",
+              "url": "https://github.com/liuyunnb666/hermes-skills",
+              "tag": "beta",
+              "author": "liuyunnb666",
+              "author_url": "https://github.com/liuyunnb666",
+              "desc": "Seven curated skills for Hermes: debugging, parallel dev, TDD, and UI workflows."
+            },
+            {
+              "name": "hermes-skills (winterliu6)",
+              "url": "https://github.com/winterliu6/hermes-skills",
+              "tag": "production",
+              "author": "winterliu6",
+              "author_url": "https://github.com/winterliu6",
+              "desc": "Chinese-focused skills pack: **content-studio** (小红书/抖音/公众号), **security-newsletter** (weekly cybersecurity awareness emails), and **tech-ops-bot** (企业微信/飞书 IT ops with fault classification and web dashboard). Production use at Yaolai Cinema IT."
+            },
+            {
+              "name": "hurmoz",
+              "url": "https://github.com/Moshe-ship/hurmoz",
+              "tag": "beta",
+              "author": "Moshe-ship",
+              "author_url": "https://github.com/Moshe-ship",
+              "desc": "Arabic-first skills pack — 63 skills across Islamic tools (prayer times, zakat, Quran), dialect-aware NLP, content, and travel. Install: `hermes skills tap add Moshe-ship/hurmoz`."
+            },
+            {
+              "name": "humanizer-ru",
+              "url": "https://github.com/ilyautov/humanizer-ru",
+              "tag": "experimental",
+              "author": "ilyautov",
+              "author_url": "https://github.com/ilyautov",
+              "desc": "Removes AI-writing tells from Russian text (bureaucratese, calques, ChatGPT/Claude fingerprints). 52 patterns, deterministic offline scanner. SKILL.md-compatible. MIT."
+            },
+            {
+              "name": "hinge-projects",
+              "url": "https://github.com/tsol/hinge-projects",
+              "tag": "experimental",
+              "author": "tsol",
+              "author_url": "https://github.com/tsol",
+              "desc": "Starts Vite projects, a Hinge editing overlay, Cloudflare tunnels, and Telegram control for phone-based development with Hermes. Early project; review the install script before running it."
+            },
+            {
+              "name": "stock-analysis",
+              "url": "https://github.com/AdvancingTitans/stock-analysis",
+              "tag": "beta",
+              "author": "AdvancingTitans",
+              "author_url": "https://github.com/AdvancingTitans",
+              "desc": "Python CLI and portable skill for A-share, Hong Kong, US stock, fund, and portfolio research. Produces Markdown reports and machine-readable evidence packs; research only, with no trading execution."
+            },
+            {
+              "name": "nika-agents",
+              "url": "https://github.com/supernovae-st/nika-agents",
+              "tag": "experimental",
+              "author": "SuperNovae Studio",
+              "author_url": "https://github.com/supernovae-st",
+              "desc": "Delegates repeatable work from Hermes to Nika workflows with static checks, cost caps, permits, and hash-chained execution traces. The integration skill is MIT; the Nika repository is AGPL-3.0."
+            },
+            {
+              "name": "LinkedIn Skills",
+              "url": "https://github.com/sergebulaev/linkedin-skills",
+              "tag": "beta",
+              "author": "Serge Bulaev",
+              "author_url": "https://github.com/sergebulaev",
+              "desc": "Ten portable skills for drafting, reviewing, and planning LinkedIn content. MIT licensed and compatible with agentskills.io hosts, including Hermes."
+            },
+            {
+              "name": "routerbase-agent-skills",
+              "url": "https://github.com/zenlee123/routerbase-agent-skills",
+              "tag": "experimental",
+              "author": "zenlee123",
+              "author_url": "https://github.com/zenlee123",
+              "desc": "Skills for RouterBase model routing and media generation. Requires RouterBase credentials; MIT licensed and still at its initial public revision."
+            },
+            {
+              "name": "skill-evolution",
+              "url": "https://github.com/okdk7788/skill-evolution",
+              "tag": "experimental",
+              "author": "okdk7788",
+              "author_url": "https://github.com/okdk7788",
+              "desc": "GEPA-style measured evolution for learned agent skills, adapted from Hermes self-improvement ideas for Claude Code. MIT licensed, but still at its initial public revision."
+            },
+            {
+              "name": "emulo",
+              "url": "https://github.com/ohad6k/emulo",
+              "tag": "beta",
+              "author": "ohad6k",
+              "author_url": "https://github.com/ohad6k",
+              "desc": "Mines local Claude Code, Codex, and Copilot session logs into a portable user profile that Hermes can load as a skill. Runs locally and is MIT licensed."
+            },
+            {
+              "name": "code-assembly-skill",
+              "url": "https://github.com/baoyu0/code-assembly-skill",
+              "tag": "experimental",
+              "author": "baoyu0",
+              "author_url": "https://github.com/baoyu0",
+              "desc": "Search-first software assembly method for finding and composing existing tools before writing new code. Portable across Hermes, Claude Code, and Codex."
+            },
+            {
+              "name": "hermes-do-task-skill",
+              "url": "https://github.com/baoyu0/hermes-do-task-skill",
+              "tag": "experimental",
+              "author": "baoyu0",
+              "author_url": "https://github.com/baoyu0",
+              "desc": "One-command workflow that plans a task, delegates execution, verifies the result, and writes a handoff. Early project with no published release."
+            },
+            {
+              "name": "hermes-telegram-checklist",
+              "url": "https://github.com/johnsje183/hermes-telegram-checklist",
+              "tag": "beta",
+              "author": "johnsje183",
+              "author_url": "https://github.com/johnsje183",
+              "desc": "Native Telegram To-Do lists (real interactive checkboxes with a progress counter) in chats and forum topics — create, read, append, toggle with a write allowlist and offline plan validation. Uses a Telethon user session (MTProto) because the Bot API can't post checklists into groups; treat the session account accordingly. MIT, CI across Python 3.9–3.13."
+            },
+            {
+              "name": "hermes-tour-assistant",
+              "url": "https://github.com/MaikD77/hermes-tour-assistant",
+              "tag": "beta",
+              "author": "MaikD77",
+              "author_url": "https://github.com/MaikD77",
+              "desc": "Three-in-one outdoor skill suite: **Outdoor Tour Assistant** (GPX route monitoring with weather, deviation alerts, and silent-by-default cron), **City Walk Guide** (personal OSM/Wikipedia walking tour with source-backed stories and optional voice), and **Live Location Nearby** (water, food, repair, and shelter via OSM/Overpass). MIT, Python 3.11+, 85%+ test coverage."
+            },
+            {
+              "name": "weread-notes-export-skill",
+              "url": "https://github.com/dongwei6688/weread-notes-export-skill",
+              "tag": "beta",
+              "author": "dongwei6688",
+              "author_url": "https://github.com/dongwei6688",
+              "desc": "WeChat Reading (微信读书) notes export: chapter-tree Markdown for highlights and comments, incremental sync for daily cron, safe filenames, same-title/different-author separation. Pure Python stdlib; needs a WeRead API key."
+            },
+            {
+              "name": "policy-search-china-skill",
+              "url": "https://github.com/dongwei6688/policy-search-china-skill",
+              "tag": "beta",
+              "author": "dongwei6688",
+              "author_url": "https://github.com/dongwei6688",
+              "desc": "Search Chinese government policy documents across 16 ministries and extract verbatim citations with source links for reports and planning. Ships a large local policy cache plus scripted search chains; dual-space layout keeps user data separate from system updates. MIT."
+            },
+            {
+              "name": "true402-token-safety",
+              "url": "https://github.com/true402/hermes-skills",
+              "tag": "beta",
+              "author": "true402",
+              "author_url": "https://github.com/true402",
+              "desc": "Pre-trade Base (8453) ERC-20 safety gate: gas-free on-chain buy→sell simulation that proves whether a token can be *sold*, plus liquidity and ownership/mint/proxy checks, returning `avoid` / `caution` / `ok`. Free daily checks need no wallet; heavier use pays per call over x402 with a hard $0.10 client-side cap. MIT-0 skill wrapping `@true402.dev/rugcheck`."
+            },
+            {
+              "name": "twitr-skills",
+              "url": "https://github.com/lnvestor/twitr-skills",
+              "tag": "beta",
+              "author": "lnvestor",
+              "author_url": "https://github.com/lnvestor",
+              "desc": "Five X/Twitter agent skills: live reads and search, bulk dataset exports, real-time account/keyword monitors (HMAC-signed webhooks), publishing via a connected account, and an unattended presence routine for Hermes cron. Pay-per-call in USDC (x402 on Base/Solana, MPP on Tempo) — no API key or signup; treat publish/presence skills as high-privilege. MIT."
+            },
+            {
+              "name": "loremaster",
+              "url": "https://github.com/loremaster-ai/loremaster",
+              "tag": "experimental",
+              "author": "loremaster-ai",
+              "author_url": "https://github.com/loremaster-ai",
+              "desc": "AI scrum-master and PM skill pack extracted from a production multi-project deployment. Sprint ceremonies with planning poker, backlog proposals with verifiable done criteria, plan-conflict detection, and a per-project wiki vault with a knowledge graph. Every external write (Jira, wiki commits) goes through per-item human approval. MIT."
+            },
+            {
+              "name": "hermes-backup-recovery",
+              "url": "https://github.com/JimmyHuang2002/hermes-backup-recovery",
+              "tag": "experimental",
+              "author": "JimmyHuang2002",
+              "author_url": "https://github.com/JimmyHuang2002",
+              "desc": "Keeps a long-running Hermes recoverable: age-encrypted backups of everything under `$HERMES_HOME` (memory, skills, config, chat history) with verification, restore drills, and a health check. Four short bash scripts plus a SKILL.md — no lock-in, archives are plain `tar.gz`. MIT."
+            },
+            {
+              "name": "obsidian-auto-context",
+              "url": "https://github.com/SkillForge-Labs/obsidian-auto-context",
+              "tag": "experimental",
+              "author": "SkillForge Labs",
+              "author_url": "https://github.com/SkillForge-Labs",
+              "desc": "Captures each session's findings, decisions, and action items into an Obsidian vault as tagged, wiki-linked Markdown with daily-note rollups. Secrets are redacted before anything touches disk. MIT."
+            },
+            {
+              "name": "gtd-clarity-agent",
+              "url": "https://github.com/hlw77777/gtd-clarity-agent",
+              "tag": "experimental",
+              "author": "hlw77777",
+              "author_url": "https://github.com/hlw77777",
+              "desc": "Methodology-driven GTD inbox \"clarify\" skill, Chinese-first with English docs. AI handles the mechanical work (dedup, atomic cut, narrative merge, action extraction); humans keep value judgment and final priority. Distinguishes one-shot actions, habits, and pure reference notes as separate buckets. MIT."
+            },
+            {
+              "name": "appnz-agent-skills",
+              "url": "https://github.com/lee101/appnz-agent-skills",
+              "tag": "experimental",
+              "author": "lee101",
+              "author_url": "https://github.com/lee101",
+              "desc": "Portable deploy skill for [app.nz](https://app.nz): static sites, server apps, scale-to-zero Cog models, and bounded coding-agent jobs, with target/cost checks, health checks, and rollback evidence built into the workflow. Skill is MIT; deployments require an app.nz account and may consume paid credits."
+            },
+            {
+              "name": "url-manager",
+              "url": "https://github.com/Piccolo123/url-manager",
+              "tag": "experimental",
+              "author": "Piccolo123",
+              "author_url": "https://github.com/Piccolo123",
+              "desc": "Agent-first URL collection and knowledge management: agents save, categorize, tag, search, and share web links, with collaborative shared categories and magic-link delivery back to the user. MIT client fronting a hosted backend (ai.ocean94.com) — an account is auto-created on first use and collected links are stored there; SKILL.md requires informing the user before first use."
+            },
+            {
+              "name": "OMH (oh-my-hermes by rlaope)",
+              "url": "https://github.com/rlaope/oh-my-hermes",
+              "tag": "beta",
+              "author": "rlaope",
+              "author_url": "https://github.com/rlaope",
+              "desc": "Wrapper orchestration layer installed next to Hermes — one `omh setup` installs 80+ generated workflow skills plus a deterministic chat router that turns free-form Korean/English chat into the right prepared workflow, clarifying instead of guessing when confidence is low. Coding work is delegated to an explicitly selected executor (Codex, Claude Code, or the Hermes runtime) with a strict prepared-vs-observed evidence boundary. A 156-case bilingual routing corpus and ~1,500 unit tests gate every change in CI. Pure Python, zero runtime dependencies, never patches Hermes; docs in four languages. Distinct project from [witt3rd's oh-my-hermes](https://github.com/witt3rd/oh-my-hermes) above. MIT."
+            }
+          ]
+        },
+        {
+          "name": "agentskills.io Ecosystem",
+          "items": [
+            {
+              "name": "wondelai/skills",
+              "url": "https://github.com/wondelai/skills",
+              "tag": "production",
+              "author": "wondelai",
+              "author_url": "https://github.com/wondelai",
+              "desc": "Cross-platform agent skills for Claude Code and agentskills.io-compatible platforms."
+            },
+            {
+              "name": "youtube-skills",
+              "url": "https://github.com/ZeroPointRepo/youtube-skills",
+              "tag": "production",
+              "author": "therohitdas",
+              "author_url": "https://github.com/therohitdas",
+              "desc": "Adds YouTube **search**, channel browsing, playlist extraction, and reliable transcripts on top of Hermes's built-in `youtube-content`. Built-in transcript fetch silently fails on VPS because YouTube blocks cloud IP ranges; this routes through TranscriptAPI's backend (15M+ transcripts/month) to stay unblocked. 12 sub-skills covering search → fetch → bulk extraction. Auto-invokes for creator lookups, topic research, and tutorials. The fix for \"my Hermes can't watch YouTube on a $5 VPS.\""
+            },
+            {
+              "name": "Anthropic-Cybersecurity-Skills",
+              "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+              "tag": "production",
+              "author": "mukul975",
+              "author_url": "https://github.com/mukul975",
+              "desc": "753+ structured cybersecurity skills mapped to MITRE ATT&CK. 25k+ stars."
+            },
+            {
+              "name": "chainlink-agent-skills",
+              "url": "https://github.com/smartcontractkit/chainlink-agent-skills",
+              "tag": "production",
+              "author": "Chainlink",
+              "author_url": "https://github.com/smartcontractkit",
+              "desc": "Official Chainlink agent skills on the agentskills.io spec. Oracle network data, CCIP, and smart contract interaction."
+            },
+            {
+              "name": "black-forest-labs/skills",
+              "url": "https://github.com/black-forest-labs/skills",
+              "tag": "production",
+              "author": "Black Forest Labs",
+              "author_url": "https://github.com/black-forest-labs",
+              "desc": "Official FLUX model skills for image generation. First-party skills from the FLUX creators."
+            },
+            {
+              "name": "pydantic-ai-skills",
+              "url": "https://github.com/DougTrajano/pydantic-ai-skills",
+              "tag": "production",
+              "author": "DougTrajano",
+              "author_url": "https://github.com/DougTrajano",
+              "desc": "Pydantic AI with agentskills.io support. Adds type-safe schema validation to agent skill inputs and outputs."
+            },
+            {
+              "name": "execplan-skill",
+              "url": "https://github.com/tiann/execplan-skill",
+              "tag": "beta",
+              "author": "tiann",
+              "author_url": "https://github.com/tiann",
+              "desc": "Manages complex, long-running task execution with proper lifecycle handling — progress tracking, checkpoints, and failure recovery."
+            },
+            {
+              "name": "maestro",
+              "url": "https://github.com/ReinaMacCredy/maestro",
+              "tag": "beta",
+              "author": "ReinaMacCredy",
+              "author_url": "https://github.com/ReinaMacCredy",
+              "desc": "Skill orchestration with Conductor planning and Beads tracking. Structures multi-step skill execution into observable pipelines."
+            },
+            {
+              "name": "bmad-module-skill-forge",
+              "url": "https://github.com/armelhbobdad/bmad-module-skill-forge",
+              "tag": "beta",
+              "author": "armelhbobdad",
+              "author_url": "https://github.com/armelhbobdad",
+              "desc": "Transforms repos and docs into agentskills.io-compliant skills. Input a codebase, output installable skills."
+            },
+            {
+              "name": "Agentic-MCP-Skill",
+              "url": "https://github.com/cablate/Agentic-MCP-Skill",
+              "tag": "beta",
+              "author": "cablate",
+              "author_url": "https://github.com/cablate",
+              "desc": "MCP client with agentskills.io validation. Bridges MCP tool servers with the skills standard."
+            },
+            {
+              "name": "ripley-xmr-gateway",
+              "url": "https://github.com/KYC-rip/ripley-xmr-gateway",
+              "tag": "experimental",
+              "author": "KYC-rip",
+              "author_url": "https://github.com/KYC-rip",
+              "desc": "Monero (XMR) blockchain gateway for agents. Enables private cryptocurrency transactions from agent workflows."
+            },
+            {
+              "name": "skillsdotnet",
+              "url": "https://github.com/PederHP/skillsdotnet",
+              "tag": "beta",
+              "author": "PederHP",
+              "author_url": "https://github.com/PederHP",
+              "desc": "C# implementation of agentskills.io with MCP integration. .NET alternative to the Python/TypeScript SDKs."
+            },
+            {
+              "name": "colony-skill",
+              "url": "https://github.com/TheColonyCC/colony-skill",
+              "tag": "beta",
+              "author": "TheColonyCC",
+              "author_url": "https://github.com/TheColonyCC",
+              "desc": "Collaborative intelligence platform where AI agents and humans post findings, discuss ideas, complete tasks, earn karma, and build reputation. Community hub at [thecolony.cc](https://thecolony.cc)."
+            },
+            {
+              "name": "AgentCash",
+              "url": "https://github.com/Merit-Systems/agentcash-skills",
+              "tag": "beta",
+              "author": "Merit-Systems",
+              "author_url": "https://github.com/Merit-Systems",
+              "desc": "Skill giving agents access to 300+ premium APIs and a wallet balance to pay for them through x402 or MPP. A fresh Hermes install with only AgentCash is actually powerful — from web scraping to image generation to email sending, all through one skill with free USDC for trying out."
+            },
+            {
+              "name": "x-twitter-scraper",
+              "url": "https://github.com/Xquik-dev/x-twitter-scraper",
+              "tag": "beta",
+              "author": "Xquik-dev",
+              "author_url": "https://github.com/Xquik-dev",
+              "desc": "Typed X (Twitter) access via 43 narrow SKILL.md folders covering reads (search, timelines, mentions, trends, articles, bookmarks, for-you), writes (post, DM, follow, profile updates), bulk extraction (followers, communities, lists, spaces), AI composition (write-tweets, write-threads, optimize, going-viral), giveaways, monitors, and webhooks. No browser automation, no scraping — typed JSON in/out through the Xquik API. Fills the X gap for Hermes social workflows."
+            },
+            {
+              "name": "drawio-skill",
+              "url": "https://github.com/Agents365-ai/drawio-skill",
+              "tag": "production",
+              "author": "Agents365-ai",
+              "author_url": "https://github.com/Agents365-ai",
+              "desc": "Generates draw.io diagrams from natural language and exports to PNG/SVG/PDF. SKILL.md format, works across Claude Code, OpenClaw, Hermes, Codex. Useful when an agent needs to communicate architecture or process visually without a separate design step. 5.8k+ stars."
+            },
+            {
+              "name": "open-design",
+              "url": "https://github.com/nexu-io/open-design",
+              "tag": "production",
+              "author": "nexu-io",
+              "author_url": "https://github.com/nexu-io",
+              "desc": "Local-first, open-source alternative to Anthropic's Claude Design. 31 composable skills (web/mobile/decks/dashboards/documents) over 129 design systems (Linear, Stripe, Vercel, Notion, Apple, …) with image (gpt-image-2), video (Seedance 2.0, HyperFrames), and audio generation. Auto-detects 15 coding-agent CLIs from PATH and integrates with Hermes via ACP/JSON-RPC. BYOK proxy, sandboxed previews, can import Claude Design exports. 78k+ stars."
+            },
+            {
+              "name": "authsome",
+              "url": "https://github.com/agentrhq/authsome",
+              "tag": "beta",
+              "author": "agentrhq",
+              "author_url": "https://github.com/agentrhq",
+              "desc": "Local OAuth2 and API credential broker for agents. Log in once via browser PKCE or device code, credentials live in a local encrypted vault, and a local proxy injects them at request time so raw keys never enter the agent's environment. 45 providers preconfigured (14 OAuth2, 31 API credentials) including GitHub, Google, OpenAI, Linear, Slack, Notion, Resend, and Stripe. Skill installs into Hermes with `hermes skills install agentrhq/authsome/skills/authsome`. MIT."
+            },
+            {
+              "name": "outreachmagic",
+              "url": "https://github.com/outreachmagic/outreachmagic",
+              "tag": "production",
+              "author": "Outreach Magic",
+              "author_url": "https://github.com/outreachmagic",
+              "desc": "GTM pipeline agent that syncs Smartlead, Instantly, HeyReach, PlusVibe, EmailBison, Prosp, and Calendly into a local SQLite database your agent can query."
+            },
+            {
+              "name": "abvx-agent-skills",
+              "url": "https://github.com/markoblogo/abvx-agent-skills",
+              "tag": "production",
+              "author": "markoblogo",
+              "author_url": "https://github.com/markoblogo",
+              "desc": "Auditable cross-platform coding-agent skillpack for smaller diffs, evidence-led debugging, token control, browser verification, and reviewable `SKILL.md` workflows with static security audit."
+            },
+            {
+              "name": "dev-gtm-claude-skills",
+              "url": "https://github.com/Infrasity-Labs/dev-gtm-claude-skills",
+              "tag": "production",
+              "author": "Infrasity-Labs",
+              "author_url": "https://github.com/Infrasity-Labs",
+              "desc": "Cross-platform agent skills for SEO, GEO (Generative Engine Optimization), AI discoverability, and developer marketing."
+            },
+            {
+              "name": "remoet",
+              "url": "https://github.com/remoet-labs/agent-skills",
+              "tag": "production",
+              "author": "remoet-labs",
+              "author_url": "https://github.com/remoet-labs",
+              "desc": "Job-search and career-discovery skill. Searches tech companies by actual tech stack, stars shortlisted companies, pulls jobs from that curated list, and reads/writes the developer profile. Backed by remote MCP with free tier."
+            },
+            {
+              "name": "zooidfund",
+              "url": "https://github.com/Ales375/zooidfund-skill",
+              "tag": "beta",
+              "author": "Ales375",
+              "author_url": "https://github.com/Ales375",
+              "desc": "Lets an agent discover, evaluate, and donate USDC on Base to humanitarian crowdfunding campaigns at [zooid.fund](https://zooid.fund). Public campaign browsing, peer-signal review, and direct wallet-to-creator transfers."
+            },
+            {
+              "name": "longbridge",
+              "url": "https://github.com/longbridge/skills/tree/main/skills/longbridge",
+              "tag": "production",
+              "author": "Longbridge Securities",
+              "author_url": "https://github.com/longbridge",
+              "desc": "Live financial market skill for US, HK, A-share, and Singapore markets. Real-time quotes, fundamentals, options chain, portfolio positions, institutional data, and news/SEC filings. Requires Longbridge account. 125+ companion skills."
+            },
+            {
+              "name": "hermes-mine-bean",
+              "url": "https://github.com/damo-nu11/minebean-skills/tree/main/hermes-mine-bean",
+              "tag": "production",
+              "author": "MineBean",
+              "author_url": "https://github.com/damo-nu11",
+              "desc": "Autonomous $BEAN mining skill for the MineBean 5×5 grid protocol on Base. Supports zero-cost `--no-agent` cron mode for unattended automation."
+            },
+            {
+              "name": "invinoveritas",
+              "url": "https://github.com/babyblueviper1/invinoveritas",
+              "tag": "beta",
+              "author": "babyblueviper1",
+              "author_url": "https://github.com/babyblueviper1",
+              "desc": "Portable agentskills.io skill + MCP recipe for pay-per-call tools over Bitcoin Lightning / USDC (x402). Governance `review` gate before irreversible actions, markets intelligence, sandboxed code execution, and agent-to-agent payments."
+            },
+            {
+              "name": "arelay-skills",
+              "url": "https://github.com/mmmikael/arelay-skills",
+              "tag": "beta",
+              "author": "mmmikael",
+              "author_url": "https://github.com/mmmikael",
+              "desc": "Deliver reports, Markdown, HTML, images, and PDFs via [Agent Relay](https://arelay.app) with optional end-to-end encryption. Works with hosted or self-hosted instances. MIT."
+            },
+            {
+              "name": "tiny.place",
+              "url": "https://github.com/tinyhumansai/tiny.place",
+              "tag": "beta",
+              "author": "TinyHumans",
+              "author_url": "https://github.com/tinyhumansai",
+              "desc": "Agent-to-agent social network shipped as a portable skill: claim an @handle identity, get discovered in an open directory, message peers over Signal-protocol end-to-end encryption, and transact in USDC/SOL via x402. One SKILL.md runs on Hermes, OpenClaw, and any agentskills.io-compatible harness. GPL-3.0."
+            },
+            {
+              "name": "plasma-wiki",
+              "url": "https://github.com/plasma-ai/wiki",
+              "tag": "beta",
+              "author": "plasma-ai",
+              "author_url": "https://github.com/plasma-ai",
+              "desc": "Portable skill and Python CLI for hierarchical Markdown knowledge bases — create, index, search, read, and lint via `wiki map`, `wiki search`, and `wiki read`. Keeps project knowledge in Git-tracked plain Markdown with deterministic index maintenance, no hosted memory service or vector DB required. Apache-2.0."
+            }
+          ]
+        },
+        {
+          "name": "Plugins",
+          "items": [
+            {
+              "name": "plur",
+              "url": "https://github.com/plur-ai/plur",
+              "tag": "beta",
+              "author": "plur-ai",
+              "author_url": "https://github.com/plur-ai",
+              "desc": "Shared memory layer for AI agents with open engram format (YAML). Useful for persistent learning patterns in Hermes workflows."
+            },
+            {
+              "name": "hermes-payguard",
+              "url": "https://github.com/nativ3ai/hermes-payguard",
+              "tag": "experimental",
+              "author": "nativ3ai",
+              "author_url": "https://github.com/nativ3ai",
+              "desc": "Safe USDC and x402 payment plugin. Lets Hermes send and receive payments with configurable spending limits and approval flows."
+            },
+            {
+              "name": "hermes-web-search-plus",
+              "url": "https://github.com/robbyczgw-cla/hermes-web-search-plus",
+              "tag": "beta",
+              "author": "robbyczgw-cla",
+              "author_url": "https://github.com/robbyczgw-cla",
+              "desc": "Multi-provider web search with intelligent routing across Serper, Tavily, Exa, and more. Replaces the built-in search with better result quality and source diversity."
+            },
+            {
+              "name": "hermes-weather-plugin",
+              "url": "https://github.com/FahrenheitResearch/hermes-weather-plugin",
+              "tag": "beta",
+              "author": "FahrenheitResearch",
+              "author_url": "https://github.com/FahrenheitResearch",
+              "desc": "Professional-grade weather plugin with NWS model imagery, NEXRAD radar, and meteorological calculations."
+            },
+            {
+              "name": "hermes-wxtrain-plugin",
+              "url": "https://github.com/FahrenheitResearch/hermes-wxtrain-plugin",
+              "tag": "experimental",
+              "author": "FahrenheitResearch",
+              "author_url": "https://github.com/FahrenheitResearch",
+              "desc": "ML pipeline plugin for building training datasets from HRRR/GFS/ERA5 weather models. Companion to the weather plugin for building weather ML pipelines."
+            },
+            {
+              "name": "hermes-plugin-chrome-profiles",
+              "url": "https://github.com/anpicasso/hermes-plugin-chrome-profiles",
+              "tag": "experimental",
+              "author": "anpicasso",
+              "author_url": "https://github.com/anpicasso",
+              "desc": "Switch browser tools between Chrome profiles via CDP. Useful for multi-account testing or browsing with different saved sessions."
+            },
+            {
+              "name": "hermes-cloudflare",
+              "url": "https://github.com/raulvidis/hermes-cloudflare",
+              "tag": "experimental",
+              "author": "raulvidis",
+              "author_url": "https://github.com/raulvidis",
+              "desc": "Cloudflare browser rendering plugin. Headless browsing through Cloudflare's infrastructure instead of local browser automation."
+            },
+            {
+              "name": "evey-bridge-plugin",
+              "url": "https://github.com/42-evey/evey-bridge-plugin",
+              "tag": "beta",
+              "author": "42-evey",
+              "author_url": "https://github.com/42-evey",
+              "desc": "Claude Code plugin for bridging with Evey (hermes-agent). Lets Claude Code and Hermes share context and hand off tasks between each other."
+            },
+            {
+              "name": "agent-analytics-hermes-plugin",
+              "url": "https://github.com/Agent-Analytics/agent-analytics-hermes-plugin",
+              "tag": "beta",
+              "author": "Agent-Analytics",
+              "author_url": "https://github.com/Agent-Analytics",
+              "desc": "Native Signals dashboard tab for Hermes with read-only multi-project analytics, explicit timeframe, and theme-aware UI."
+            },
+            {
+              "name": "hermes-curator-evolver",
+              "url": "https://github.com/pingchesu/hermes-curator-evolver",
+              "tag": "beta",
+              "author": "pingchesu",
+              "author_url": "https://github.com/pingchesu",
+              "desc": "Evidence-driven companion to v0.12's built-in Curator. Observes tool/skill/session events into local SQLite, backfills existing `~/.hermes/sessions/*.json` history, generates reports and dry-run proposals, supports optional Qwen embedding + bge reranking for candidate ordering, and runs a guarded daily autorun loop that only appends low-risk evidence-backed notes (with backups and rollback manifests). Inspired by SkillClaw but adapted to Hermes-native plugin hooks with explicit model opt-ins and pinned-skill safety."
+            },
+            {
+              "name": "rtk-hermes",
+              "url": "https://github.com/ogallotti/rtk-hermes",
+              "tag": "beta",
+              "author": "ogallotti",
+              "author_url": "https://github.com/ogallotti",
+              "desc": "Plugin that intercepts shell commands via `pre_tool_call` and rewrites output through [RTK](https://github.com/rtk-ai/rtk), compressing terminal output before it reaches the LLM context window. 60-90% token reduction on shell commands, 96.6% efficiency across 11M+ tokens processed. Zero config — auto-loads on gateway boot. Real benchmarks: `cargo test` 90-99%, `git log --stat` 87%, `ls -la` 78%."
+            },
+            {
+              "name": "eagle-eye",
+              "url": "https://github.com/willingning-coder/eagle-eye",
+              "tag": "beta",
+              "author": "willingning-coder",
+              "author_url": "https://github.com/willingning-coder",
+              "desc": "5-layer intelligent skill routing engine. Narrows 50+ installed skills to top-5 candidates before each API call via Hard Triggers → FTS5 BM25 → Synonyms → Embeddings → RRF Fusion. Uses `pre_llm_call` hook; confidence gate allows \"no match\" as a valid result."
+            },
+            {
+              "name": "cronalytics",
+              "url": "https://github.com/8bit64k/cronalytics",
+              "tag": "beta",
+              "author": "8bit64k",
+              "author_url": "https://github.com/8bit64k",
+              "desc": "Cron cost and usage analytics. Hooks `on_session_end`, stores analytics in local SQLite, surfaces via dashboard tab, CLI, and agent skill for cron health diagnostics. Multi-language (en, zh, zh-TW, es)."
+            },
+            {
+              "name": "hermes-drive-index",
+              "url": "https://github.com/gregoryhorn/hermes-drive-index",
+              "tag": "experimental",
+              "author": "gregoryhorn",
+              "author_url": "https://github.com/gregoryhorn",
+              "desc": "Private local Google Drive full-text search index. Crawls selected folders into SQLite FTS5 and exposes `drive_index_search`, `drive_index_status`, and `drive_index_update` tools. Apache-2.0."
+            },
+            {
+              "name": "hermes-feishu-zh",
+              "url": "https://github.com/OLDBAI213/hermes-feishu-zh",
+              "tag": "beta",
+              "author": "OLDBAI213",
+              "author_url": "https://github.com/OLDBAI213",
+              "desc": "Community extension for Chinese Feishu display — replaces English UI labels, stabilizes Markdown via `post` format, and optionally adds `lark-cli-toolbox` with 12 Feishu tools. One-click install with backup/rollback."
+            },
+            {
+              "name": "hermes-snow-search",
+              "url": "https://github.com/mlinquan/hermes-snow-search",
+              "tag": "beta",
+              "author": "mlinquan",
+              "author_url": "https://github.com/mlinquan",
+              "desc": "Global memory retrieval layer — cross-session SQLite FTS5 search (~0.1s) across full message history, memory, and facts, with CJK/English auto-routing (trigram vs unicode61 tokenizers) and cross-device queries against a shared state.db. Also on [PyPI](https://pypi.org/project/hermes-snow-search/)."
+            },
+            {
+              "name": "hermes-bus-plugin",
+              "url": "https://github.com/mlinquan/hermes-bus-plugin",
+              "tag": "beta",
+              "author": "mlinquan",
+              "author_url": "https://github.com/mlinquan",
+              "desc": "Message bus integration plugin. Auto-starts bus daemon, registers session as endpoint, injects external messages via `pre_llm_call`. Provides `bus_send`, `bus_status`, and `bus_info` tools for cross-process agent coordination."
+            },
+            {
+              "name": "hermes-motif",
+              "url": "https://github.com/Saurav0989/hermes-motif",
+              "tag": "beta",
+              "author": "Saurav0989",
+              "author_url": "https://github.com/Saurav0989",
+              "desc": "Post-tool-call plugin that mines live execution traces for repeated sub-sequences and proposes them as evidence-backed micro-skills. n-gram extraction, arg abstraction, deduplication against existing skills."
+            },
+            {
+              "name": "hermes-eval",
+              "url": "https://github.com/Saurav0989/hermes-eval",
+              "tag": "beta",
+              "author": "Saurav0989",
+              "author_url": "https://github.com/Saurav0989",
+              "desc": "Skill regression testing and trajectory quality scoring. Catch skill drift before it propagates. Exports quality-filtered trajectories in Atropos RL format."
+            },
+            {
+              "name": "hermes-live-discord-agent-plugin",
+              "url": "https://github.com/Capslockb/hermes-live-discord-agent-plugin",
+              "tag": "beta",
+              "author": "Capslockb",
+              "author_url": "https://github.com/Capslockb",
+              "desc": "Full-duplex Discord voice bridge to Gemini Multimodal Live — 40+ function tools, vision, per-user memory, mid-conversation delegation, and transcripts. Pure NumPy codec plumbing with hard-clear barge-in."
+            },
+            {
+              "name": "hermes-dynamic-workflows",
+              "url": "https://github.com/lingjiuu/hermes-dynamic-workflows",
+              "tag": "beta",
+              "author": "lingjiuu",
+              "author_url": "https://github.com/lingjiuu",
+              "desc": "Claude Code-style dynamic workflows for Hermes. Model writes sandboxed workflow scripts orchestrating subagents with `agent`, `parallel`, and `pipeline` — up to 1000 subagents, persisted/resumable runs, live dashboard."
+            },
+            {
+              "name": "custom-dangerous-patterns",
+              "url": "https://github.com/scross01/hermes-custom-dangerous-patterns-plugin",
+              "tag": "beta",
+              "author": "scross01",
+              "author_url": "https://github.com/scross01",
+              "desc": "Add custom terminal command patterns requiring session approval before execution. Extends the standard approve-once/session/always/deny flow with `hermes custom-dangerous-patterns` CLI management."
+            },
+            {
+              "name": "hermes-ops-kit",
+              "url": "https://github.com/redoracle/hermes-ops-kit",
+              "tag": "beta",
+              "author": "redoracle",
+              "author_url": "https://github.com/redoracle",
+              "desc": "Operational and security plugin: credential management, provider health checks, route diagnostics, MCP security auditing, key rotation, and usage/cost observability."
+            },
+            {
+              "name": "agentplane-hermes-plugin",
+              "url": "https://github.com/basilisk-labs/agentplane-hermes-plugin",
+              "tag": "beta",
+              "author": "Basilisk Labs",
+              "author_url": "https://github.com/basilisk-labs",
+              "desc": "External worker-lane plugin letting Hermes Kanban assignees matching `agentplane-*` spawn AgentPlane supervision instead of a Hermes profile."
+            },
+            {
+              "name": "khwarizmi-hermes-plugin",
+              "url": "https://github.com/Moshe-ship/khwarizmi-hermes-plugin",
+              "tag": "beta",
+              "author": "Moshe-ship",
+              "author_url": "https://github.com/Moshe-ship",
+              "desc": "Pre-LLM reliability preflight via `pre_llm_call`/`pre_tool_call`: restores implicit references, fails loud on contradictions, and gates tool calls against a constraint-driven allowlist. Part of the [Mizan](https://github.com/Moshe-ship/mizan) stack."
+            },
+            {
+              "name": "paperclip-hermes-file-access-manager",
+              "url": "https://github.com/marospekarik/paperclip-hermes-file-access-manager",
+              "tag": "beta",
+              "author": "marospekarik",
+              "author_url": "https://github.com/marospekarik",
+              "desc": ""
+            },
+            {
+              "name": "hermes-usage-hook",
+              "url": "https://github.com/chenwei791129/hermes-usage-hook",
+              "tag": "beta",
+              "author": "chenwei791129",
+              "author_url": "https://github.com/chenwei791129",
+              "desc": "Appends the provider's own rate-limit windows under every reply (Codex 5h/weekly, MiniMax). Reads Codex OAuth credentials read-only; optional Codex weekly auto-reset is **off by default** (consumes non-refundable reset credits when enabled) with a privacy-minimised JSONL audit. Prefer `hermes plugins install chenwei791129/hermes-usage-hook/plugin` over the remote `uv run` installer. MIT."
+            },
+            {
+              "name": "hermes-yandex-mail",
+              "url": "https://github.com/akinfold/hermes-yandex-mail",
+              "tag": "beta",
+              "author": "akinfold",
+              "author_url": "https://github.com/akinfold",
+              "desc": "Yandex Mail over IMAP (no third-party proxy): list/search/read/flag/move/delete with app-password auth. Read-and-organise only (no SMTP send); `BODY.PEEK` so reads do not mark seen; `YANDEX_MAIL_ACTIONS` / `YANDEX_MAIL_FOLDERS` allowlists drop disallowed tools entirely. High-privilege mailbox access — scope the allowlist tightly. MIT, on PyPI."
+            },
+            {
+              "name": "hermes-yandex-disk",
+              "url": "https://github.com/akinfold/hermes-yandex-disk",
+              "tag": "beta",
+              "author": "akinfold",
+              "author_url": "https://github.com/akinfold",
+              "desc": "Yandex Disk REST API v1 plugin: browse, read, download, write/upload, copy/move, share, and trash. Direct to `cloud-api.yandex.net`; action and path allowlists control what the agent may touch. High-privilege cloud storage — start read-only. MIT, on PyPI."
+            },
+            {
+              "name": "hermes-yandex-calendar",
+              "url": "https://github.com/akinfold/hermes-yandex-calendar",
+              "tag": "beta",
+              "author": "akinfold",
+              "author_url": "https://github.com/akinfold",
+              "desc": "Yandex Calendar over CalDAV: list calendars/events, create/update, RSVP, move, delete. Preserves unmodeled iCalendar properties; `YANDEX_CALENDAR_ACTIONS` / `YANDEX_CALENDAR_CALENDARS` allowlists; untrusted server XML via defusedxml. High-privilege calendar write — prefer read-first. MIT, on PyPI."
+            },
+            {
+              "name": "hermes-yandex-search-api",
+              "url": "https://github.com/akinfold/hermes-yandex-search-api",
+              "tag": "beta",
+              "author": "akinfold",
+              "author_url": "https://github.com/akinfold",
+              "desc": "Yandex Search API plugin: routes Hermes `web_search` to Yandex and adds a citation-backed generative search tool. Requires a paid Yandex Cloud API key + folder id. MIT, on PyPI."
+            },
+            {
+              "name": "hermes-plugin-slash-prompts",
+              "url": "https://github.com/buihongduc132/hermes-plugin-slash-prompts",
+              "tag": "beta",
+              "author": "buihongduc132",
+              "author_url": "https://github.com/buihongduc132",
+              "desc": "Loads existing CLI-agent prompt files (OpenCode, Claude Code, Codex, Gemini CLI) as Hermes slash commands. Auto-discovers six standard prompt directories, reads YAML-frontmatter/TOML/raw formats, and unifies the different argument-interpolation syntaxes (`$ARGUMENTS`, `$1`–`$9`, `{{args}}`) in one handler. MIT."
+            },
+            {
+              "name": "cron-status-alert",
+              "url": "https://github.com/pnascimento9596/cron-status-alert",
+              "tag": "experimental",
+              "author": "Paulo Nascimento",
+              "author_url": "https://github.com/pnascimento9596",
+              "desc": "Discord alert plugin for overdue Hermes cron jobs and failed deliveries, with recovery notifications and a `/cron-status` command. New and unadopted; MIT licensed."
+            },
+            {
+              "name": "hermes-gate",
+              "url": "https://github.com/observer-protocol/hermes-gate",
+              "tag": "experimental",
+              "author": "Observer Protocol",
+              "author_url": "https://github.com/observer-protocol",
+              "desc": "Checks agent spending against signed delegation mandates before wallet actions. The current Hermes binding is bypassable by an agent that avoids the gate, and the repository does not declare a license."
+            },
+            {
+              "name": "hermes-delegation-gate",
+              "url": "https://github.com/kenpritchard/hermes-delegation-gate",
+              "tag": "experimental",
+              "author": "Ken Pritchard",
+              "author_url": "https://github.com/kenpritchard",
+              "desc": "Adds human approval before `delegate_task` can spawn subagents, with a block mode for unattended runs. Requires a recent Hermes plugin-hook implementation; MIT licensed."
+            },
+            {
+              "name": "Extracto",
+              "url": "https://github.com/rclarke87/Extracto",
+              "tag": "experimental",
+              "author": "Rutger Clarke",
+              "author_url": "https://github.com/rclarke87",
+              "desc": "Self-hosted web extraction plugin using local Trafilatura first and Jina Reader as a fallback for JavaScript-heavy pages. No API key is required; early first release."
+            },
+            {
+              "name": "RoBrain",
+              "url": "https://github.com/adelinamart/robrain",
+              "tag": "beta",
+              "author": "adelinamart",
+              "author_url": "https://github.com/adelinamart",
+              "desc": "Self-hosted decision memory plugin that records rejected alternatives and resurfaces their reasons when an agent revisits them. Uses Postgres and can run with a local model; Apache-2.0."
+            },
+            {
+              "name": "hermes-agent-abacus-ai",
+              "url": "https://github.com/ZoniBoy00/hermes-agent-abacus-ai",
+              "tag": "experimental",
+              "author": "ZoniBoy00",
+              "author_url": "https://github.com/ZoniBoy00",
+              "desc": "Image-generation plugin for Abacus.AI models. Requires an Abacus.AI API key; MIT licensed and still at its initial public revision."
+            },
+            {
+              "name": "agentiker plugin suite",
+              "url": "https://github.com/IVRZ-da/agentiker-code-intel",
+              "tag": "experimental",
+              "author": "agentiker",
+              "author_url": "https://github.com/IVRZ-da",
+              "desc": "Three Hermes plugins for AST-aware code intelligence, repository scouting, and plan-following. The linked code-intel plugin is MIT licensed; each plugin installs separately."
+            },
+            {
+              "name": "hermes-doppler",
+              "url": "https://github.com/inLeague/hermes-doppler",
+              "tag": "experimental",
+              "author": "inLeague",
+              "author_url": "https://github.com/inLeague",
+              "desc": "Doppler Secrets Manager plugin with per-profile secret isolation for multi-profile gateway deployments. Root config injects into `os.environ`; per-profile overlays stay scoped to the profile mechanism, with merge/overwrite modes. Fills the gap for teams on Doppler rather than the natively supported Bitwarden/1Password. MIT."
+            },
+            {
+              "name": "ClawRouter-Hermes",
+              "url": "https://github.com/BlockRunAI/ClawRouter-Hermes",
+              "tag": "beta",
+              "author": "BlockRunAI",
+              "author_url": "https://github.com/BlockRunAI",
+              "desc": "Adds [ClawRouter](https://github.com/BlockRunAI/ClawRouter) as a native model provider: 55+ LLMs from 9 providers through one local proxy, paid per-call in USDC via x402 instead of per-provider API keys, with a model picker, routing profiles, and usage stats. Thin Python adapter over the canonical TypeScript proxy; on PyPI. It manages a real wallet (BIP-39, Base + Solana) and recommends a pipe-to-shell installer — review before running and fund only what you'd spend. MIT."
+            }
+          ]
+        },
+        {
+          "name": "Skill Registries & Discovery",
+          "items": [
+            {
+              "name": "hermeshub",
+              "url": "https://github.com/amanning3390/hermeshub",
+              "tag": "beta",
+              "author": "amanning3390",
+              "author_url": "https://github.com/amanning3390",
+              "desc": "Browse, share, and install community skills for Hermes. Community hub for skill discovery, still early but growing."
+            },
+            {
+              "name": "skilldock.io",
+              "url": "https://github.com/chigwell/skilldock.io",
+              "tag": "production",
+              "author": "chigwell",
+              "author_url": "https://github.com/chigwell",
+              "desc": "Registry of reusable AI skills compatible with OpenClaw, Claude Code, and Hermes. Established cross-platform skills marketplace with an active catalog."
+            },
+            {
+              "name": "Global Chat",
+              "url": "https://global-chat.io",
+              "tag": "production",
+              "author": "pumanitro",
+              "author_url": "https://github.com/pumanitro",
+              "desc": "Cross-protocol agent discovery across MCP, A2A, and agents.txt. Searchable directory of 18K+ MCP servers and agents with a free agents.txt validator and MCP server for programmatic access."
+            },
+            {
+              "name": "BundleDex",
+              "url": "https://bundledex.net",
+              "tag": "beta",
+              "author": "McClawdDigital",
+              "author_url": "https://github.com/McClawdDigital",
+              "desc": "Directory of OKF (Open Knowledge Format) knowledge bundles for agents, with MCP tools, `llms.txt`, and Hermes-oriented skills for search and submit ([bundledex-agent-skills](https://github.com/McClawdDigital/bundledex-agent-skills)). MIT skills; directory is hosted."
+            },
+            {
+              "name": "CreatorSkills",
+              "url": "https://creatorskills.co",
+              "tag": "production",
+              "author": "CreatorSkills",
+              "author_url": "https://github.com/calebvbi",
+              "desc": "Curated marketplace of 30+ downloadable AI skills for content creators — YouTube scripting, sponsorship analysis, content repurposing, and audience growth. Uses the open SKILL.md format; skills install into Hermes, Claude Code, ChatGPT, and 20+ compatible platforms."
+            },
+            {
+              "name": "TypeUI for Hermes",
+              "url": "https://www.typeui.sh/docs/guides/hermes",
+              "tag": "production",
+              "author": "Bergside",
+              "author_url": "https://github.com/bergside/typeui",
+              "desc": "Registry of design skills that give Hermes better context when building user interfaces. Component and style guidance sourced from an established design-system vendor. 1.4k+ stars."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Memory Providers",
+      "subsections": [
+        {
+          "name": "",
+          "items": [
+            {
+              "name": "hindsight",
+              "url": "https://github.com/vectorize-io/hindsight",
+              "tag": "production",
+              "author": "Vectorize",
+              "author_url": "https://github.com/vectorize-io",
+              "desc": "Long-term memory layer for agents with retain/recall/reflect workflows. Integrates with Hermes via plugin or MCP and supports semantic, graph, and temporal retrieval."
+            },
+            {
+              "name": "honcho-self-hosted",
+              "url": "https://github.com/elkimek/honcho-self-hosted",
+              "tag": "beta",
+              "author": "elkimek",
+              "author_url": "https://github.com/elkimek",
+              "desc": "Self-hosted Honcho memory backend setup for Hermes. Useful when you need stronger cross-session memory behavior with local control."
+            },
+            {
+              "name": "yantrikdb-hermes-plugin",
+              "url": "https://github.com/yantrikos/yantrikdb-hermes-plugin",
+              "tag": "beta",
+              "author": "yantrikos",
+              "author_url": "https://github.com/yantrikos",
+              "desc": "Hermes-native memory provider for [YantrikDB](https://github.com/yantrikos/yantrikdb-server). Embedded by default like SQLite (`pip install yantrikdb`, no server or GPU), with an optional HTTP backend for clusters. Self-maintaining: `conflicts()` surfaces contradictions instead of overwriting silently, and every `recall()` result carries a `why_retrieved` reason list. Requires `yantrikdb>=0.10.0`."
+            },
+            {
+              "name": "flowstate-qmd",
+              "url": "https://github.com/amanning3390/flowstate-qmd",
+              "tag": "beta",
+              "author": "amanning3390",
+              "author_url": "https://github.com/amanning3390",
+              "desc": "Anticipatory memory for AI agents with RAG and vector search. Pre-fetches relevant context before queries hit the agent."
+            },
+            {
+              "name": "Mnemosyne",
+              "url": "https://github.com/AxDSan/Mnemosyne",
+              "tag": "beta",
+              "author": "AxDSan",
+              "author_url": "https://github.com/AxDSan",
+              "desc": "Local-first, sub-millisecond memory system built specifically for Hermes. SQLite + sqlite-vec hybrid search (50% vector / 30% FTS5 / 20% importance), BEAM tiered architecture (working / episodic / scratchpad), and a temporal knowledge graph (TripleStore) with time-aware fact invalidation. Native plugin (`hermes memory setup`, `hermes mnemosyne stats`), zero external dependencies, full docs at [docs.mnemosyne.site](https://docs.mnemosyne.site)."
+            },
+            {
+              "name": "mem0",
+              "url": "https://github.com/mem0ai/mem0",
+              "tag": "production",
+              "author": "mem0ai",
+              "author_url": "https://github.com/mem0ai",
+              "desc": "Universal memory layer for AI agents. Multi-level memory (user, session, agent) with official Hermes integration."
+            },
+            {
+              "name": "honcho",
+              "url": "https://github.com/plastic-labs/honcho",
+              "tag": "beta",
+              "author": "plastic-labs",
+              "author_url": "https://github.com/plastic-labs",
+              "desc": "Stateful memory library with asynchronous user-modeling reasoning. Builds richer user representations over time."
+            },
+            {
+              "name": "supermemory",
+              "url": "https://github.com/supermemoryai/supermemory",
+              "tag": "production",
+              "author": "supermemoryai",
+              "author_url": "https://github.com/supermemoryai",
+              "desc": "Cloud and self-hosted memory layer. Single API for storing and querying agent memory."
+            },
+            {
+              "name": "hermes-lcm",
+              "url": "https://github.com/stephenschoettler/hermes-lcm",
+              "tag": "beta",
+              "author": "stephenschoettler",
+              "author_url": "https://github.com/stephenschoettler",
+              "desc": "Lossless Context Management for Hermes — keeps session context from degrading in long runs."
+            },
+            {
+              "name": "ClawMem",
+              "url": "https://github.com/yoloshii/ClawMem",
+              "tag": "beta",
+              "author": "yoloshii",
+              "author_url": "https://github.com/yoloshii",
+              "desc": "On-device memory layer for agents. Local-first with no external API dependencies."
+            },
+            {
+              "name": "gbrain",
+              "url": "https://github.com/garrytan/gbrain",
+              "tag": "beta",
+              "author": "garrytan",
+              "author_url": "https://github.com/garrytan",
+              "desc": "Opinionated brain layer for Hermes. Structured personal memory with categorization and retrieval."
+            },
+            {
+              "name": "keepnotes",
+              "url": "https://github.com/keepnotes-ai/keep",
+              "tag": "beta",
+              "author": "keepnotes-ai",
+              "author_url": "https://github.com/keepnotes-ai",
+              "desc": "Reflective memory layer. Stores and resurfaces notes at contextually relevant moments."
+            },
+            {
+              "name": "Brainstack",
+              "url": "https://github.com/yepyhun/Brainstack",
+              "tag": "beta",
+              "author": "yepyhun",
+              "author_url": "https://github.com/yepyhun",
+              "desc": "Memory kernel stack for agents. Layered memory architecture with priority-based recall."
+            },
+            {
+              "name": "autocontext",
+              "url": "https://github.com/greyhaven-ai/autocontext",
+              "tag": "beta",
+              "author": "greyhaven-ai",
+              "author_url": "https://github.com/greyhaven-ai",
+              "desc": "Recursive self-improving context harness. Automatically curates and compresses context to keep it relevant."
+            },
+            {
+              "name": "sourcevault-code-tools",
+              "url": "https://github.com/sourcevault-ai/sourcevault-code-tools",
+              "tag": "beta",
+              "author": "sourcevault-ai",
+              "author_url": "https://github.com/sourcevault-ai",
+              "desc": "Private local code memory: semantic code search, exact file reads, and grounded repo Q&A with citations, all on-machine via a local SourceVault server. MIT."
+            },
+            {
+              "name": "hexus",
+              "url": "https://github.com/codenamekt/hexus",
+              "tag": "beta",
+              "author": "codenamekt",
+              "author_url": "https://github.com/codenamekt",
+              "desc": "Postgres memory plugin and standalone MCP server. Local BERT (MiniLM-L6-v2) embeddings keep the memory hot path free of LLM and remote HTTP calls, with pgvector search, multi-agent storage, per-minion themes, and an async write queue. BSD-3-Clause."
+            },
+            {
+              "name": "hermes-penfield",
+              "url": "https://github.com/penfieldlabs/hermes-penfield",
+              "tag": "beta",
+              "author": "penfieldlabs",
+              "author_url": "https://github.com/penfieldlabs",
+              "desc": "Memory provider for the Penfield knowledge graph — 16 tools, OAuth 2.1 device flow, stdlib-only, and the full MemoryProvider ABC (prefetch, pre-compress, system prompt block). Plugin is MIT, but it fronts the paid Penfield cloud service (no free tier)."
+            },
+            {
+              "name": "Tree Ring Memory",
+              "url": "https://github.com/TerminallyLazy/tree-ring-memory-skill",
+              "tag": "experimental",
+              "author": "TerminallyLazy",
+              "author_url": "https://github.com/TerminallyLazy",
+              "desc": "Skill-level memory hygiene for local files: recall, capture, audit, consolidation, and intentional forgetting. Listed here as an approach rather than a drop-in Hermes memory provider."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tools & Utilities",
+      "subsections": [
+        {
+          "name": "",
+          "items": [
+            {
+              "name": "hermes-workspace",
+              "url": "https://github.com/outsourc-e/hermes-workspace",
+              "tag": "production",
+              "author": "outsourc-e",
+              "author_url": "https://github.com/outsourc-e",
+              "desc": "Web-based workspace with chat, terminal, memory browser, skills manager, and inspector. The most complete GUI for Hermes. Built during the Nous Hackathon 2026."
+            },
+            {
+              "name": "hermes-desktop",
+              "url": "https://github.com/dodo-reach/hermes-desktop",
+              "tag": "beta",
+              "author": "dodo-reach",
+              "author_url": "https://github.com/dodo-reach",
+              "desc": "Native macOS workspace for Hermes built around a direct, host-first SSH connection model, with a real embedded terminal, session browsing, canonical file editing, skills browsing, and usage metrics without extra gateway or daemon layers."
+            },
+            {
+              "name": "mission-control",
+              "url": "https://github.com/builderz-labs/mission-control",
+              "tag": "production",
+              "author": "builderz-labs",
+              "author_url": "https://github.com/builderz-labs",
+              "desc": "Open-source dashboard for AI agent orchestration. Manage agent fleets, dispatch tasks, track costs, and coordinate multi-agent workflows. Self-hosted, SQLite-powered. 5.7k+ stars."
+            },
+            {
+              "name": "hermes-neurovision",
+              "url": "https://github.com/Tranquil-Flow/hermes-neurovision",
+              "tag": "experimental",
+              "author": "Tranquil-Flow",
+              "author_url": "https://github.com/Tranquil-Flow",
+              "desc": "Terminal neurovisualizer with 42 animated themes. Decorative terminal overlays for agent activity."
+            },
+            {
+              "name": "lintlang",
+              "url": "https://github.com/roli-lpci/lintlang",
+              "tag": "beta",
+              "author": "roli-lpci",
+              "author_url": "https://github.com/roli-lpci",
+              "desc": "Static linter for AI agent configs and prompts with HERM v1.1 scoring. Catches config mistakes that silently degrade agent behavior."
+            },
+            {
+              "name": "nix-hermes-agent",
+              "url": "https://github.com/0xrsydn/nix-hermes-agent",
+              "tag": "beta",
+              "author": "0xrsydn",
+              "author_url": "https://github.com/0xrsydn",
+              "desc": "Nix package and NixOS module for Hermes. Fully reproducible deployments via Nix flakes."
+            },
+            {
+              "name": "openclaw-to-hermes",
+              "url": "https://github.com/0xNyk/openclaw-to-hermes",
+              "tag": "beta",
+              "author": "0xNyk",
+              "author_url": "https://github.com/0xNyk",
+              "desc": "Community migration tool from OpenClaw to Hermes. Built when the native `hermes-migrate` had critical bugs. For Hermes v0.3.0+, prefer the native `hermes claw migrate` command — it now covers the full migration path."
+            },
+            {
+              "name": "vessel-browser",
+              "url": "https://github.com/unmodeled-tyler/vessel-browser",
+              "tag": "experimental",
+              "author": "unmodeled-tyler",
+              "author_url": "https://github.com/unmodeled-tyler",
+              "desc": "AI-native Linux browser with MCP control and autonomous browsing. Full browser built for agent use, not a headless wrapper."
+            },
+            {
+              "name": "camofox-browser",
+              "url": "https://github.com/jo-inc/camofox-browser",
+              "tag": "production",
+              "author": "jo-inc",
+              "author_url": "https://github.com/jo-inc",
+              "desc": "Stealth headless browser server with REST API — bypasses Cloudflare, bot detection, and anti-scraping. Drop-in Puppeteer/Playwright replacement that powers Hermes's own browser automation. 7.7k+ stars, MIT, used in production by [askjo.ai](https://askjo.ai). The right backend if your VPS-hosted Hermes keeps getting blocked."
+            },
+            {
+              "name": "hermes-ui",
+              "url": "https://github.com/pyrate-llama/hermes-ui",
+              "tag": "beta",
+              "author": "pyrate-llama",
+              "author_url": "https://github.com/pyrate-llama",
+              "desc": "Single-file glassmorphic web UI with SSE streaming, tool call visualization, activity panel, image analysis (Gemini Vision), session management, PDF export, skill browser, memory viewer, and mobile support. Python proxy server (stdlib only) on port 3333, no build step required."
+            },
+            {
+              "name": "hermes-webui",
+              "url": "https://github.com/sanchomuzax/hermes-webui",
+              "tag": "beta",
+              "author": "sanchomuzax",
+              "author_url": "https://github.com/sanchomuzax",
+              "desc": "Lightweight process monitoring and configuration dashboard. Simpler alternative to hermes-workspace, focused on ops."
+            },
+            {
+              "name": "Hermes Studio",
+              "url": "https://github.com/EKKOLearnAI/hermes-studio",
+              "tag": "production",
+              "author": "EKKOLearnAI",
+              "author_url": "https://github.com/EKKOLearnAI",
+              "desc": "Vue 3 + TypeScript dashboard for Hermes with Backend-for-Frontend separation. Real-time streaming chat across multiple backends (local/Docker/SSH/Singularity), unified config for 8 messaging channels, token/cost analytics with 30-day trends, cron job scheduling, multi-profile gateway management, multi-agent group chat with @mention routing, and a WebSocket-backed embedded terminal. 9.1k+ stars."
+            },
+            {
+              "name": "evey-setup",
+              "url": "https://github.com/42-evey/evey-setup",
+              "tag": "beta",
+              "author": "42-evey",
+              "author_url": "https://github.com/42-evey",
+              "desc": "One-command setup for the full hermes-agent stack with free models and 29 plugins. Opinionated defaults that cover most use cases."
+            },
+            {
+              "name": "llmtrim",
+              "url": "https://github.com/fkiene/llmtrim",
+              "tag": "beta",
+              "author": "fkiene",
+              "author_url": "https://github.com/fkiene",
+              "desc": "Local proxy in front of the model Hermes calls; compresses resent tool schemas, history, and MCP tool output before each request is sent. Quality-gated, so it never increases your bill. Also an MCP server, CLI, and library (Rust, Python, Ruby, Swift, Kotlin, JS/WASM). MPL-2.0. Same spirit as [rtk-hermes](https://github.com/ogallotti/rtk-hermes), but a transport-layer proxy rather than a native `pre_tool_call` plugin."
+            },
+            {
+              "name": "SkillClaw",
+              "url": "https://github.com/AMAP-ML/SkillClaw",
+              "tag": "production",
+              "author": "AMAP-ML",
+              "author_url": "https://github.com/AMAP-ML",
+              "desc": "Open-source companion that auto-evolves, deduplicates, and improves your skill library from real session data. Adds a post-task evolution loop on top of Hermes's built-in skill creation. Native Hermes integration via `~/.hermes/skills`, safety flows (`skillclaw doctor hermes` / `skillclaw restore hermes`). Works across multiple devices and isolated skill silos. 705 stars, MIT licensed, active through 2026-04-17."
+            },
+            {
+              "name": "agenttrace",
+              "url": "https://github.com/luoyuctl/agenttrace",
+              "tag": "beta",
+              "author": "luoyuctl",
+              "author_url": "https://github.com/luoyuctl",
+              "desc": "Local-first TUI/CLI for post-run agent session audits — cost/token spikes, tool failures, retry loops, latency gaps, health scores, anomalies, session-to-session diffs. No upload, no cloud, MIT. Companion SKILL.md (`agenttrace-session-audit`) packages the audit as an installable skill any host can run."
+            },
+            {
+              "name": "agentburn",
+              "url": "https://github.com/Socialpranker/agentburn",
+              "tag": "beta",
+              "author": "Socialpranker",
+              "author_url": "https://github.com/Socialpranker",
+              "desc": "Local read-only profiler showing where a Hermes instance burns money. Splits spend by source (cron, gateways, subagents, CLI), walks message logs for re-read loops and retry patterns, and proposes paste-ready config fixes. Python stdlib only, `uvx agentburn`, MIT."
+            },
+            {
+              "name": "kesha-voice-kit",
+              "url": "https://github.com/drakulavich/kesha-voice-kit",
+              "tag": "beta",
+              "author": "drakulavich",
+              "author_url": "https://github.com/drakulavich",
+              "desc": "Local-first CLI voice backend. STT in 25 languages and TTS via Hermes command providers with no API keys. Plugs into `HERMES_LOCAL_STT_COMMAND` and `tts.providers.<name>.type: command`."
+            },
+            {
+              "name": "xiaoma-hermes-zh-cn",
+              "url": "https://github.com/fresh-claw/hermes-zh-cn",
+              "tag": "production",
+              "author": "fresh-claw",
+              "author_url": "https://github.com/fresh-claw",
+              "desc": "Chinese localization and onboarding package. One-command installer applies zh-CN UI text patches, gateway prompts, and pairing messages for Hermes 0.14.x/0.13.x."
+            },
+            {
+              "name": "Atlas Cloud",
+              "url": "https://www.atlascloud.ai",
+              "tag": "beta",
+              "author": "Atlas Cloud",
+              "author_url": "https://www.atlascloud.ai",
+              "desc": "OpenAI-compatible API gateway for running Hermes workflows against multiple model families — useful for comparing skill behavior across providers without reworking integrations."
+            },
+            {
+              "name": "hermes-bus",
+              "url": "https://github.com/mlinquan/hermes-bus",
+              "tag": "beta",
+              "author": "mlinquan",
+              "author_url": "https://github.com/mlinquan",
+              "desc": "Generic Unix socket message bus transport — 4-byte framing, endpoint registration, heartbeat keep-alive, auto-reconnect. Pairs with hermes-bus-plugin and hermes-notify."
+            },
+            {
+              "name": "hermes-notify",
+              "url": "https://github.com/mlinquan/hermes-notify",
+              "tag": "beta",
+              "author": "mlinquan",
+              "author_url": "https://github.com/mlinquan",
+              "desc": "Config-driven notification router — YAML rule matching by message type, context injection, audio playback, and tmux notification sender."
+            },
+            {
+              "name": "arabic-agent-eval",
+              "url": "https://github.com/Moshe-ship/arabic-agent-eval",
+              "tag": "beta",
+              "author": "Moshe-ship",
+              "author_url": "https://github.com/Moshe-ship",
+              "desc": "Dialect-split Arabic function-calling benchmark (51 items, 5 dialects) with public [leaderboard](https://huggingface.co/spaces/Mosescreates/arabic-agent-eval-leaderboard)."
+            },
+            {
+              "name": "hermes-plugin-guard",
+              "url": "https://github.com/mauricemohr88-debug/hermes-plugin-guard",
+              "tag": "experimental",
+              "author": "mauricemohr88-debug",
+              "author_url": "https://github.com/mauricemohr88-debug",
+              "desc": "Local static scanner for Hermes plugins before you enable them — reviews manifests, Python capabilities, dependency declarations, likely committed secrets, and repo hygiene without ever importing or executing target code. Text, JSON, SARIF, or GitHub-annotation reports plus a reusable composite action for CI. A review aid, not a sandbox. MIT, tagged releases."
+            },
+            {
+              "name": "skillcraft",
+              "url": "https://github.com/cloudroad-io/skillcraft",
+              "tag": "beta",
+              "author": "cloudroad-io",
+              "author_url": "https://github.com/cloudroad-io",
+              "desc": "Linter + sync CLI for agent-config files (`SKILL.md`, `CLAUDE.md`, `AGENTS.md`, `.cursor/rules`, `.claude/rules`, copilot-instructions). Pluggable rules, one `AGENTS.md` canonical source with drift checks, SARIF for CI. Vendor-neutral — works with Hermes and any agent that reads these files. Python, `pip install skillcraft`, MIT."
+            },
+            {
+              "name": "codex-stt-bridge",
+              "url": "https://github.com/ai-babai/codex-stt-bridge",
+              "tag": "experimental",
+              "author": "ai-babai",
+              "author_url": "https://github.com/ai-babai",
+              "desc": "STT CLI that reuses a local Codex/ChatGPT OAuth session (file credential store) so Hermes can transcribe voice messages without an OpenAI Platform key or local Whisper. Uses an undocumented Codex Desktop transcription endpoint — experimental and may break; fails closed if auth is missing or too open. MIT."
+            }
+          ]
+        },
+        {
+          "name": "Deployment",
+          "items": [
+            {
+              "name": "hermes-agent-docker",
+              "url": "https://github.com/xmbshwll/hermes-agent-docker",
+              "tag": "beta",
+              "author": "xmbshwll",
+              "author_url": "https://github.com/xmbshwll",
+              "desc": "Minimal Docker sandbox image for Hermes. Pull, run, done."
+            },
+            {
+              "name": "hermes-agent-template",
+              "url": "https://github.com/Crustocean/hermes-agent-template",
+              "tag": "beta",
+              "author": "Crustocean",
+              "author_url": "https://github.com/Crustocean",
+              "desc": "Production-ready Docker image for cloud Hermes deployments on Crustocean. Infrastructure wiring pre-configured."
+            },
+            {
+              "name": "hermes-autonomous-server",
+              "url": "https://github.com/JackTheGit/hermes-autonomous-server",
+              "tag": "experimental",
+              "author": "JackTheGit",
+              "author_url": "https://github.com/JackTheGit",
+              "desc": "Headless Hermes deployment with systemd and cron on Linux servers. Runs unattended."
+            },
+            {
+              "name": "Nora",
+              "url": "https://github.com/solomon2773/nora",
+              "tag": "beta",
+              "author": "solomon2773",
+              "author_url": "https://github.com/solomon2773",
+              "desc": "Self-hosted control plane for Hermes and OpenClaw fleets on Docker or Kubernetes. Includes lifecycle controls, logs, terminal and file access, RBAC, encrypted provider secrets, monitoring, REST, CLI, and MCP interfaces. Apache-2.0."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Integrations & Bridges",
+      "subsections": [
+        {
+          "name": "",
+          "items": [
+            {
+              "name": "hermes-android",
+              "url": "https://github.com/raulvidis/hermes-android",
+              "tag": "beta",
+              "author": "raulvidis",
+              "author_url": "https://github.com/raulvidis",
+              "desc": "Android device bridge with a full Python toolset. Lets Hermes interact with and control Android devices."
+            },
+            {
+              "name": "hermes-miniverse",
+              "url": "https://github.com/teknium1/hermes-miniverse",
+              "tag": "beta",
+              "author": "teknium1",
+              "author_url": "https://github.com/teknium1",
+              "desc": "Bridge to Miniverse pixel worlds. By a Nous Research co-founder."
+            },
+            {
+              "name": "screenpipe",
+              "url": "https://github.com/screenpipe/screenpipe",
+              "tag": "production",
+              "author": "screenpipe",
+              "author_url": "https://github.com/screenpipe",
+              "desc": "Local-first screen and audio capture that gives Hermes long-term memory of what you've seen, said, and heard. Connects over MCP (`npx -y screenpipe-mcp`, stdio or HTTP) with tools for search, activity summaries, and meeting detection. Fully on-device."
+            },
+            {
+              "name": "1claw-hermes",
+              "url": "https://github.com/1clawAI/1claw-hermes",
+              "tag": "beta",
+              "author": "1clawAI",
+              "author_url": "https://github.com/1clawAI",
+              "desc": "TypeScript integration bringing [1Claw](https://1claw.xyz) to Hermes — MCP-based secret fetching from an HSM-backed vault, a [Shroud](https://docs.1claw.xyz/docs/guides/shroud) TEE LLM-proxy sidecar that redacts secrets/PII and blocks prompt injection before prompts reach the model provider, per-subagent identities, and the Intents API for keyless on-chain signing. Hermes agents get just-in-time, scoped, revocable credentials without keys ever touching the agent context."
+            },
+            {
+              "name": "zouroboros-swarm-executors",
+              "url": "https://github.com/marlandoj/zouroboros-swarm-executors",
+              "tag": "experimental",
+              "author": "marlandoj",
+              "author_url": "https://github.com/marlandoj",
+              "desc": "Local executor bridge for Claude Code + Hermes integration. Enables task handoff between both agents."
+            },
+            {
+              "name": "reina",
+              "url": "https://github.com/Crustocean/reina",
+              "tag": "beta",
+              "author": "Crustocean",
+              "author_url": "https://github.com/Crustocean",
+              "desc": "Autonomous AI agent for the Crustocean platform. Deep integration of Hermes into Crustocean's product."
+            },
+            {
+              "name": "hermes-blockchain-oracle",
+              "url": "https://github.com/gizdusum/hermes-blockchain-oracle",
+              "tag": "experimental",
+              "author": "gizdusum",
+              "author_url": "https://github.com/gizdusum",
+              "desc": "Solana blockchain intelligence MCP server. Provides on-chain analytics and wallet data to Hermes via MCP."
+            },
+            {
+              "name": "hermes-council",
+              "url": "https://github.com/Ridwannurudeen/hermes-council",
+              "tag": "experimental",
+              "author": "Ridwannurudeen",
+              "author_url": "https://github.com/Ridwannurudeen",
+              "desc": "Adversarial multi-perspective council MCP server. Multiple AI viewpoints debate before the agent commits to a decision."
+            },
+            {
+              "name": "Not Human Search",
+              "url": "https://github.com/unitedideas/nothumansearch-mcp",
+              "tag": "production",
+              "author": "unitedideas",
+              "author_url": "https://github.com/unitedideas",
+              "desc": "MCP server for discovering other MCP servers. Indexes 8,600+ agent-friendly sites with agentic scoring, category filters, and live JSON-RPC verification. Wire it into Hermes via MCP to let the agent find and evaluate new tools to integrate on its own. Live at [nothumansearch.ai](https://nothumansearch.ai)."
+            },
+            {
+              "name": "NemoHermes",
+              "url": "https://github.com/Hmbown/NemoHermes",
+              "tag": "experimental",
+              "author": "Hmbown",
+              "author_url": "https://github.com/Hmbown",
+              "desc": "NVIDIA capability registry and Spark-aware routing layer. Routes compute-heavy tasks to available GPU infrastructure."
+            },
+            {
+              "name": "microsoft-workspace-skill",
+              "url": "https://github.com/Andrew-Girgis/microsoft-workspace-skill",
+              "tag": "beta",
+              "author": "Andrew-Girgis",
+              "author_url": "https://github.com/Andrew-Girgis",
+              "desc": "Full Outlook/Hotmail/Microsoft 365 integration via Microsoft Graph API. Email, calendar, contacts, user profile, and free/busy scheduling. OAuth2 with auto-refresh. Includes preview-before-send pattern that prevents shell `$` variable mangling — a real pain point when agents compose emails with dollar amounts."
+            },
+            {
+              "name": "agent-android",
+              "url": "https://github.com/aivanelabs/ai-rpa/tree/main/skills/agent-android",
+              "tag": "beta",
+              "author": "AIVane Labs",
+              "author_url": "https://github.com/aivanelabs",
+              "desc": "LAN-first Android control for Hermes over WiFi — no USB, ADB, or root required once the AIVane service is running. Supports health checks, app listing/launching, UI tree inspection, taps, text input, swipes, navigation, screenshots, and inspect→act→smoke flows. Explicit safety boundaries: only connects to user-provided device URLs."
+            },
+            {
+              "name": "clawsocial-hermes-plugin",
+              "url": "https://github.com/mrpeter2025/clawsocial-hermes-plugin",
+              "tag": "beta",
+              "author": "mrpeter2025",
+              "author_url": "https://github.com/mrpeter2025",
+              "desc": "Social discovery network plugin — helps users find and connect with people sharing their interests through their Hermes agent. Features semantic interest matching, real-time WebSocket messaging, shareable profile cards, local and web inbox, and 4 notification modes. All actions require explicit user request. Bilingual (English + Chinese), compatible with OpenClaw version."
+            },
+            {
+              "name": "mistral-mcp",
+              "url": "https://github.com/Swih/mistral-mcp",
+              "tag": "beta",
+              "author": "Swih",
+              "author_url": "https://github.com/Swih",
+              "desc": "MCP server (stdio + Streamable HTTP) wrapping the full Mistral AI surface — chat, embeddings, vision, OCR, Voxtral audio (transcribe/speak), Codestral FIM, agents, moderation, classification, files, batch. 22 tools, 2 live resources, listed on the Official MCP Registry. Lets a Hermes user keep their primary reasoning model and route OCR / audio / FIM / classification to Mistral's specialized endpoints (free Experiment tier offers 1B tokens/month)."
+            },
+            {
+              "name": "Hermes Console",
+              "url": "https://github.com/dannyshmueli/obsidian-hermes-console",
+              "tag": "beta",
+              "author": "dannyshmueli",
+              "author_url": "https://github.com/dannyshmueli",
+              "desc": "Obsidian integration for Hermes Agent. Runs Hermes in a tabbed terminal inside Obsidian and bridges selected-note/cursor context through a local companion plugin, with background status alerts when agent runs finish."
+            },
+            {
+              "name": "onequery-cli",
+              "url": "https://github.com/wordbricks/skills/tree/main/skills/onequery-cli",
+              "tag": "production",
+              "author": "Wordbricks",
+              "author_url": "https://github.com/wordbricks",
+              "desc": "Governed read-only SQL access for agents. Routes through centralized credentials, source capability checks, query validation, row limits, and audit logs instead of direct database credentials. Apache-2.0."
+            },
+            {
+              "name": "agentchat-hermes",
+              "url": "https://github.com/agentchatme/agentchat-hermes",
+              "tag": "beta",
+              "author": "agentchatme",
+              "author_url": "https://github.com/agentchatme",
+              "desc": "Connects Hermes to [AgentChat](https://agentchat.me) peer-to-peer agent messaging. WebSocket daemon with leader-lock singleton, 38 typed tools, and SOUL.md identity anchoring. Silence is a first-class outcome."
+            },
+            {
+              "name": "AgentChat Universal Skill",
+              "url": "https://www.agentchat.me/hermes-skill.md",
+              "tag": "beta",
+              "author": "agentchatme",
+              "author_url": "https://github.com/agentchatme",
+              "desc": "Self-contained Markdown skill for autonomous AgentChat onboarding via `curl` and Hermes's `cronjob` tool — no human intervention needed."
+            },
+            {
+              "name": "windy-access",
+              "url": "https://github.com/sneakyfree/windy-connect",
+              "tag": "beta",
+              "author": "sneakyfree",
+              "author_url": "https://github.com/sneakyfree",
+              "desc": "One-command pairing for the Windy ecosystem. Auto-detects runtime, configures `~/.hermes/.env`, and gives the agent a `@windymail.ai` mailbox, Matrix chat identity, and OpenAI-compatible LLM access. `windy disconnect --yes` reverses cleanly."
+            },
+            {
+              "name": "wasl",
+              "url": "https://github.com/Moshe-ship/wasl",
+              "tag": "beta",
+              "author": "Moshe-ship",
+              "author_url": "https://github.com/Moshe-ship",
+              "desc": "Arabic MCP server — 30 tools (prayer times, Quran, Hijri dates, Arabic NLP). `pip install wasl-mcp`."
+            },
+            {
+              "name": "agy-cli bridge",
+              "url": "https://github.com/ypnpt6ysmw-bit/agy-cli",
+              "tag": "experimental",
+              "author": "ypnpt6ysmw-bit",
+              "author_url": "https://github.com/ypnpt6ysmw-bit",
+              "desc": "Integrates Google Antigravity CLI and Antigravity Pro subscription credentials with Hermes via macOS Keychain OAuth — no AI Studio API keys needed."
+            },
+            {
+              "name": "Spraay x402 Gateway",
+              "url": "https://gateway.spraay.app",
+              "tag": "production",
+              "author": "plagtech",
+              "author_url": "https://github.com/plagtech",
+              "desc": "Batch-pay recipients in a single on-chain transaction across 13+ chains. 151 paid primitives via x402 micropayment protocol. Available as [Hermes skill](https://github.com/NousResearch/hermes-agent/pull/49716) or [MCP server](https://smithery.ai/servers/Plagtech/Spraay-x402-mcp)."
+            },
+            {
+              "name": "hypernatt-terminal",
+              "url": "https://github.com/DIALLOUBE-RESEARCH/hypernatt-terminal",
+              "tag": "production",
+              "author": "DIALLOUBE-RESEARCH",
+              "author_url": "https://github.com/DIALLOUBE-RESEARCH",
+              "desc": "[HyperNatt](https://hypernatt.com) BTC decision terminal MCP for agents (15 tools) — trading hub (TA/orderflow/liq/MM), Decision Core, vault-backed signals, and Li.Fi cross-chain swap. Flat $0.001 USDC/call via x402 (Base + Solana); manifest + vault proof free. MCP at `https://hypernatt.com/mcp/protocol` · [stats](https://hypernatt.com/stats) · [quickstart](https://github.com/DIALLOUBE-RESEARCH/hypernatt-terminal/blob/main/docs/quickstart.md)."
+            },
+            {
+              "name": "space0",
+              "url": "https://github.com/zero-sq/space0-mcp",
+              "tag": "beta",
+              "author": "zero-sq",
+              "author_url": "https://github.com/zero-sq",
+              "desc": "Shared 3D voxel world body for agents with spatial memory, co-presence, and persistent identity across sessions. agentskills.io skill + MCP server."
+            },
+            {
+              "name": "MeiGen-AI-Design-MCP",
+              "url": "https://github.com/jau123/MeiGen-AI-Design-MCP",
+              "tag": "production",
+              "author": "jau123",
+              "author_url": "https://github.com/jau123",
+              "desc": "Stdio MCP server for AI image + video generation across 9 leading models (GPT Image 2, Nanobanana 2, Seedream 5.0, Midjourney V8.1, Flux 2 Klein, Seedance 2.0, Happyhorse 1.0, Veo 3.1) plus local ComfyUI. Three backend modes: MeiGen cloud, any OpenAI-compatible API (BYOK), or fully offline ComfyUI. README ships a tested Hermes `mcp_servers` YAML with the timeout overrides needed for video gen workflows. SSRF-hardened, R2 uploads auto-expire after 24h. 1.5k+ stars."
+            },
+            {
+              "name": "hermes-tag",
+              "url": "https://github.com/DanielLi202/hermes-tag",
+              "tag": "beta",
+              "author": "DanielLi202",
+              "author_url": "https://github.com/DanielLi202",
+              "desc": "Context-selection layer for Feishu/Lark and Slack groups: @-mention the agent and it replies in-thread from bounded per-chat memory plus selected evidence — replies only when mentioned, no full-history RAG, no ambient auto-answer. Admin audit and lifecycle controls with an `enabled_chats` allowlist. MIT, bilingual docs with real demo recordings."
+            },
+            {
+              "name": "consensus-mcp-hermes",
+              "url": "https://github.com/ahmdngi/consensus-mcp-hermes",
+              "tag": "beta",
+              "author": "ahmdngi",
+              "author_url": "https://github.com/ahmdngi",
+              "desc": "Setup guide connecting 200M+ peer-reviewed research papers to Hermes via the [Consensus](https://consensus.app) MCP server — OAuth walkthrough for headless environments, mcp-remote bridge config, and the full search tool parameter reference."
+            },
+            {
+              "name": "Publora MCP Server",
+              "url": "https://github.com/publora/mcp-server",
+              "tag": "beta",
+              "author": "Publora",
+              "author_url": "https://github.com/publora",
+              "desc": "Official remote MCP server for scheduling and publishing social posts to 10+ networks (LinkedIn, X, Instagram, Threads, TikTok, YouTube, Bluesky, Mastodon, and more) in plain language. Hosted at `mcp.publora.com` — `hermes mcp add publora --url https://mcp.publora.com` plus a Publora API key (paid service). Closes the gap between drafting social content and actually posting it. MIT."
+            },
+            {
+              "name": "Agent37 Gateway",
+              "url": "https://github.com/agent37-platform/gateway",
+              "tag": "beta",
+              "author": "Agent37",
+              "author_url": "https://github.com/agent37-platform",
+              "desc": "Responses-style HTTP/SSE API in front of a local Hermes worker (JSONL over stdio) or an OpenClaw backend — one stable request shape and reconnectable stream replay whatever agent is behind it, plus an OpenAI-compatible `/v1/models`. Ships a Bruno collection for poking it without writing code. MIT."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Detection & Media Forensics",
+      "subsections": [
+        {
+          "name": "",
+          "items": [
+            {
+              "name": "resemble-ai/detect-skill",
+              "url": "https://github.com/resemble-ai/detect-skill",
+              "tag": "beta",
+              "author": "resemble-ai",
+              "author_url": "https://github.com/resemble-ai",
+              "desc": "Deepfake detection and media safety for agents. Detects AI-generated audio, images, video, and text; traces audio source (ElevenLabs, Resemble, etc.); applies invisible watermarks for provenance tracking; verifies speaker identity (Beta). Powered by [Resemble AI](https://resemble.ai). Core principle: never declare media real or fake without a completed detection result."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Multi-Agent & Swarms",
+      "subsections": [
+        {
+          "name": "",
+          "items": [
+            {
+              "name": "Ankh.md",
+              "url": "https://github.com/Abruptive/Ankh.md",
+              "tag": "experimental",
+              "author": "Abruptive",
+              "author_url": "https://github.com/Abruptive",
+              "desc": "TAW Agent x Hermes multi-agent swarm framework. Coordinates multiple agents with shared goals and distributed task execution."
+            },
+            {
+              "name": "gladiator",
+              "url": "https://github.com/runtimenoteslabs/gladiator",
+              "tag": "experimental",
+              "author": "runtimenoteslabs",
+              "author_url": "https://github.com/runtimenoteslabs",
+              "desc": "Two autonomous AI companies compete for GitHub stars. Hackathon project exploring autonomous agent competition dynamics."
+            },
+            {
+              "name": "bigiron",
+              "url": "https://github.com/supermodeltools/bigiron",
+              "tag": "beta",
+              "author": "supermodeltools",
+              "author_url": "https://github.com/supermodeltools",
+              "desc": "AI-native SDLC with Hermes and Supermodel code graph. Full software development lifecycle driven by coordinated agents."
+            },
+            {
+              "name": "opencode-hermes-multiagent",
+              "url": "https://github.com/1ilkhamov/opencode-hermes-multiagent",
+              "tag": "beta",
+              "author": "1ilkhamov",
+              "author_url": "https://github.com/1ilkhamov",
+              "desc": "17 specialized agents for OpenCode AI. Each agent has a defined role and they communicate through structured interfaces."
+            },
+            {
+              "name": "MisakaNet",
+              "url": "https://github.com/Ikalus1988/MisakaNet",
+              "tag": "beta",
+              "author": "Ikalus1988",
+              "author_url": "https://github.com/Ikalus1988",
+              "desc": "Git-based distributed swarm memory. When one agent solves a problem, every node learns via shared markdown lessons synced through GitHub Issues. 104+ lessons, 21+ registered nodes. Zero infrastructure beyond GitHub."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Domain Applications",
+      "subsections": [
+        {
+          "name": "",
+          "items": [
+            {
+              "name": "hermes-embodied",
+              "url": "https://github.com/bryercowan/hermes-embodied",
+              "tag": "experimental",
+              "author": "bryercowan",
+              "author_url": "https://github.com/bryercowan",
+              "desc": "Self-improving robotics via VLA model fine-tuning. Applies the Hermes learning loop to physical robot control. Nous Hackathon project."
+            },
+            {
+              "name": "hermescraft",
+              "url": "https://github.com/bigph00t/hermescraft",
+              "tag": "beta",
+              "author": "bigph00t",
+              "author_url": "https://github.com/bigph00t",
+              "desc": "Embodied AI companion for Minecraft with persistent memory. Tracks inventory, learns building preferences, and retains context across sessions."
+            },
+            {
+              "name": "Hermes-mars-rover",
+              "url": "https://github.com/Snehal707/Hermes-mars-rover",
+              "tag": "experimental",
+              "author": "Snehal707",
+              "author_url": "https://github.com/Snehal707",
+              "desc": "Mars rover simulator with ROS2 and Gazebo. Uses Hermes's skill creation loop to improve navigation over time."
+            },
+            {
+              "name": "anihermes",
+              "url": "https://github.com/rodmarkun/anihermes",
+              "tag": "beta",
+              "author": "rodmarkun",
+              "author_url": "https://github.com/rodmarkun",
+              "desc": "Local anime server and tracker with natural language interface. Browse, track, and get recommendations via conversation."
+            },
+            {
+              "name": "job-scout-agent",
+              "url": "https://github.com/Christabel337/job-scout-agent",
+              "tag": "beta",
+              "author": "Christabel337",
+              "author_url": "https://github.com/Christabel337",
+              "desc": "Autonomous job hunting agent. Searches listings, tracks applications, and manages the job search pipeline."
+            },
+            {
+              "name": "hermes-ai-infrastructure-monitoring-toolkit",
+              "url": "https://github.com/JackTheGit/hermes-ai-infrastructure-monitoring-toolkit",
+              "tag": "beta",
+              "author": "JackTheGit",
+              "author_url": "https://github.com/JackTheGit",
+              "desc": "Infrastructure monitoring, cost forecasting, and alerting via Telegram. Uses cron scheduling for continuous checks."
+            },
+            {
+              "name": "hermes-genesis",
+              "url": "https://github.com/Ridwannurudeen/hermes-genesis",
+              "tag": "experimental",
+              "author": "Ridwannurudeen",
+              "author_url": "https://github.com/Ridwannurudeen",
+              "desc": "Autonomous living world engine with procedural generation. Creates and maintains virtual worlds that grow in complexity over time."
+            },
+            {
+              "name": "hermes-legal",
+              "url": "https://github.com/Lethe044/hermes-legal",
+              "tag": "experimental",
+              "author": "Lethe044",
+              "author_url": "https://github.com/Lethe044",
+              "desc": "Contract risk analysis with English and Turkish support. Identifies risky clauses and summarizes legal obligations."
+            },
+            {
+              "name": "hermes-startup-architect",
+              "url": "https://github.com/dlkakbs/hermes-startup-architect",
+              "tag": "beta",
+              "author": "dlkakbs",
+              "author_url": "https://github.com/dlkakbs",
+              "desc": "Generates investor-ready kits from startup ideas — market analysis, pitch deck, and financial projections."
+            },
+            {
+              "name": "mercury",
+              "url": "https://github.com/hxsteric/mercury",
+              "tag": "beta",
+              "author": "hxsteric",
+              "author_url": "https://github.com/hxsteric",
+              "desc": "Multi-chain blockchain cash flow analyzer with WebGL dashboard. On-chain forensics and flow visualization."
+            },
+            {
+              "name": "mycodo-hermes-skill",
+              "url": "https://github.com/setasoma/mycodo-hermes-skill",
+              "tag": "beta",
+              "author": "setasoma",
+              "author_url": "https://github.com/setasoma",
+              "desc": "Phase-aware IoT decision engine for autonomous mushroom cultivation on Raspberry Pi. Reads sensors via Mycodo/InfluxDB, detects growth phases, and fires relay commands with safety guards. Tested through a complete Lion's Mane fruiting cycle."
+            },
+            {
+              "name": "snapmaker-u1-toolkit",
+              "url": "https://github.com/bbolinger/snapmaker-u1-toolkit",
+              "tag": "production",
+              "author": "bbolinger",
+              "author_url": "https://github.com/bbolinger",
+              "desc": "Safety-staged headless slicing for the Snapmaker U1 multi-tool 3D printer over Moonraker/Klipper LAN. 10-step staged operator flow with camera-gated print starts — the gate caught a wrong-extruder G-code before any heat command in live testing. Ships a bundled Hermes skill installable via `hermes skills install bbolinger/snapmaker-u1-toolkit/skills/3d-printer-slicing-automation`. MIT."
+            },
+            {
+              "name": "Currents News API Skills",
+              "url": "https://github.com/currentslab/news-api-skills",
+              "tag": "experimental",
+              "author": "Currents",
+              "author_url": "https://github.com/currentslab",
+              "desc": "Installable news search and reading skills with server-side credentials, parameter validation, caching, and rate-limit guidance. Requires a Currents API key; MIT licensed."
+            },
+            {
+              "name": "Internet Court",
+              "url": "https://github.com/internet-court/internet-court-skill",
+              "tag": "beta",
+              "author": "Internet Court",
+              "author_url": "https://github.com/internet-court",
+              "desc": "MIT-licensed portable skill for delegated permissions, x402 payments, escrow, revocation, and dispute workflows in agent-to-agent commerce."
+            },
+            {
+              "name": "openInvest",
+              "url": "https://github.com/longsizhuo/openInvest",
+              "tag": "beta",
+              "author": "longsizhuo",
+              "author_url": "https://github.com/longsizhuo",
+              "desc": "Self-hosted investment research application that runs an LLM committee and exposes agentskills.io and MCP interfaces. MIT licensed; research output is not financial advice."
+            },
+            {
+              "name": "erpclaw",
+              "url": "https://github.com/avansaber/erpclaw",
+              "tag": "beta",
+              "author": "avansaber",
+              "author_url": "https://github.com/avansaber",
+              "desc": "Self-hosted ERP core with accounting, inventory, sales, purchasing, HR, payroll, and an agent action layer. GPL-3.0 and compatible with Hermes through its skill interface."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Forks & Derivatives",
+      "subsections": [
+        {
+          "name": "",
+          "items": [
+            {
+              "name": "hermes-agent-camel",
+              "url": "https://github.com/nativ3ai/hermes-agent-camel",
+              "tag": "beta",
+              "author": "nativ3ai",
+              "author_url": "https://github.com/nativ3ai",
+              "desc": "Hermes with integrated CaMeL trust boundaries. Adds formal trust verification to the agent loop for safety-critical deployments."
+            },
+            {
+              "name": "orahermes-agent",
+              "url": "https://github.com/jasperan/orahermes-agent",
+              "tag": "experimental",
+              "author": "jasperan",
+              "author_url": "https://github.com/jasperan",
+              "desc": "Oracle AI Agent Harness — OCI GenAI and Oracle 26ai integration. Enterprise on-ramp for Oracle environments."
+            },
+            {
+              "name": "Hermes Alpha",
+              "url": "https://github.com/kaminocorp/hermes-alpha",
+              "tag": "experimental",
+              "author": "Kamino",
+              "author_url": "https://github.com/kaminocorp",
+              "desc": "Cloud-deployed security-research experiment built from stock Hermes plus a `SOUL.md`. An Overseer agent on Fly.io creates disposable Hunter agents for bug-bounty work and records lessons in Elephantasm. The project calls itself an experiment in progress; its last code push was March 16, 2026, and it has no releases."
+            },
+            {
+              "name": "hermes-skill-distillation",
+              "url": "https://github.com/beardthelion/hermes-skill-distillation",
+              "tag": "experimental",
+              "author": "beardthelion",
+              "author_url": "https://github.com/beardthelion",
+              "desc": "Generates agentic training trajectories from real-world tasks. Hackathon project for producing fine-tuning data at scale."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Guides & Documentation",
+      "subsections": [
+        {
+          "name": "",
+          "items": [
+            {
+              "name": "hermes-agent-docs",
+              "url": "https://github.com/mudrii/hermes-agent-docs",
+              "tag": "beta",
+              "author": "mudrii",
+              "author_url": "https://github.com/mudrii",
+              "desc": "Comprehensive community documentation for Hermes Agent. Covers v0.2.0 in detail, useful supplement to the official docs for deployment patterns."
+            },
+            {
+              "name": "hermes-wsl-ubuntu",
+              "url": "https://github.com/metantonio/hermes-wsl-ubuntu",
+              "tag": "production",
+              "author": "metantonio",
+              "author_url": "https://github.com/metantonio",
+              "desc": "Step-by-step WSL2 Ubuntu setup instructions for running Hermes on Windows."
+            },
+            {
+              "name": "HermesWiki",
+              "url": "https://github.com/martymcenroe/HermesWiki",
+              "tag": "beta",
+              "author": "martymcenroe",
+              "author_url": "https://github.com/martymcenroe",
+              "desc": "Community-maintained wiki with practical patterns and deployment advice for building autonomous agents with Hermes."
+            },
+            {
+              "name": "hermes-always-on",
+              "url": "https://github.com/JimmyHuang2002/hermes-always-on",
+              "tag": "experimental",
+              "author": "JimmyHuang2002",
+              "author_url": "https://github.com/JimmyHuang2002",
+              "desc": "Vendor-neutral guide to running Hermes 24/7 on dedicated hardware (Raspberry Pi, mini PC, any always-on Linux box): systemd supervision, surviving power loss, encrypted scheduled backups, restore drills, health checks, and security basics. Maintained by the MangoTart team but requires nothing from them. Pairs with [hermes-backup-recovery](https://github.com/JimmyHuang2002/hermes-backup-recovery)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Operational Playbooks",
+      "subsections": []
+    },
+    {
+      "name": "Level-Up Blueprints",
+      "subsections": []
+    }
+  ],
+  "total_items": 237
+}

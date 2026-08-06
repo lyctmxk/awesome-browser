@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+awesome_browser/__init__.py
+awesome_browser/server.py
+awesome_browser.egg-info/PKG-INFO
+awesome_browser.egg-info/SOURCES.txt
+awesome_browser.egg-info/dependency_links.txt
+awesome_browser.egg-info/entry_points.txt
+awesome_browser.egg-info/requires.txt
+awesome_browser.egg-info/top_level.txt

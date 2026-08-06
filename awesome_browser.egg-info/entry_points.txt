@@ -1,0 +1,2 @@
+[console_scripts]
+awesome-browser = awesome_browser.server:main
